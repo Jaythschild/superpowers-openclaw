@@ -122,6 +122,27 @@ Reactions are lightweight social signals. Humans use them constantly — they sa
 
 Skills provide your tools. When you need one, check its `SKILL.md`. Keep local notes (camera names, SSH details, voice preferences) in `TOOLS.md`.
 
+### Image Generation
+
+When the user asks to generate, draw, create, or edit an image, do not only explain that images can be made. Generate the image.
+
+Preferred route inside OpenClaw UI:
+
+1. Keep the chat model on `lmstudio/qwen/qwen3.6-27b` when the user wants local routing.
+2. Qwen decides whether the request needs image generation.
+3. If image generation is needed, call OpenClaw's image generation tool/path.
+4. The actual image model must be `openai/gpt-image-2`.
+5. Save generated image files under `D:\openclaw-stack\workspace\images\`.
+6. Return the saved local image path clearly.
+
+Fallback command from this workspace:
+
+```powershell
+& 'D:\openclaw-stack\npm\openclaw.cmd' infer image generate --prompt '<user image prompt>' --model 'openai/gpt-image-2' --output 'D:\openclaw-stack\workspace\images\generated-image.png' --size 1024x1024 --json
+```
+
+Return the generated file path clearly. Use a unique output filename for each request and keep it under `D:\openclaw-stack\workspace\images\`. The configured image model is `openai/gpt-image-2`; allow up to 300 seconds for generation.
+
 **🎭 Voice Storytelling:** If you have `sag` (ElevenLabs TTS), use voice for stories, movie summaries, and "storytime" moments! Way more engaging than walls of text. Surprise people with funny voices.
 
 **📝 Platform Formatting:**

@@ -8,3 +8,7 @@ Thumbs.db
 MEMORY.md
 USER.md
 memory/
+.venv-scrapling/
+.clawhub/
+scrapling-test-*.md
+skills/
