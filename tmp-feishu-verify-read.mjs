@@ -1,0 +1,12 @@
+import fs from 'node:fs';
+import { registerFeishuDocTools } from 'file:///D:/openclaw-stack/state/npm/node_modules/@openclaw/feishu/dist/api.js';
+const config = JSON.parse(fs.readFileSync('D:/openclaw-stack/state/openclaw.json','utf8'));
+const tools = new Map();
+const api = {config, logger:{debug(){}, warn(){}, info(){}, error(){},}, registerTool(fn, meta){ tools.set(meta.name, fn({agentAccountId: undefined, messageChannel:'webchat'})); }};
+registerFeishuDocTools(api);
+const doc=tools.get('feishu_doc');
+const token='Efq7daX6NoE1x2xPWhwcNwh3nah';
+const readRes=await doc.execute('read',{action:'read', doc_token:token});
+console.log('READ FULL\n', JSON.stringify(readRes,null,2).slice(0,4000));
+const blocks=await doc.execute('blocks',{action:'list_blocks', doc_token:token});
+console.log('\nBLOCKS FULL\n', JSON.stringify(blocks,null,2).slice(0,4000));

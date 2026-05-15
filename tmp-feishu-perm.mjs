@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+import { registerFeishuPermTools } from 'file:///D:/openclaw-stack/state/npm/node_modules/@openclaw/feishu/dist/api.js';
+const config = JSON.parse(fs.readFileSync('D:/openclaw-stack/state/openclaw.json','utf8'));
+const tools = new Map();
+const api = {config, logger:{debug(){}, warn(){}, info(){}, error(){}}, registerTool(fn, meta){ tools.set(meta.name, fn({agentAccountId: undefined, messageChannel:'webchat'})); }};
+registerFeishuPermTools(api);
+console.log([...tools.keys()]);
+const perm=tools.get('feishu_perm');
+const r=await perm.execute('perm',{action:'list', token:'Efq7daX6NoE1x2xPWhwcNwh3nah', type:'docx'});
+console.log(JSON.stringify(r,null,2).slice(0,4000));

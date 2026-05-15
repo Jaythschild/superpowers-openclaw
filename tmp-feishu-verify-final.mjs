@@ -1,0 +1,13 @@
+import fs from 'node:fs';
+import { registerFeishuDocTools } from 'file:///D:/openclaw-stack/state/npm/node_modules/@openclaw/feishu/dist/api.js';
+const config = JSON.parse(fs.readFileSync('D:/openclaw-stack/state/openclaw.json','utf8'));
+const tools = new Map();
+const api = {config, logger:{debug(){}, warn(){}, info(){}, error(){}}, registerTool(fn, meta){ tools.set(meta.name, fn({agentAccountId: undefined, messageChannel:'webchat'})); }};
+registerFeishuDocTools(api);
+const doc=tools.get('feishu_doc');
+const token='Efq7daX6NoE1x2xPWhwcNwh3nah';
+const readRes=await doc.execute('read',{action:'read', doc_token:token});
+const readJson=JSON.parse(readRes.content[0].text);
+const blocksRes=await doc.execute('blocks',{action:'list_blocks', doc_token:token});
+const blocksJson=JSON.parse(blocksRes.content[0].text);
+console.log(JSON.stringify({title:readJson.title, content_chars:readJson.content.length, contains_title:readJson.content.includes('视觉设计学习知识库｜纳斯'), contains_ref:readJson.content.includes('参考链接与参考内容'), blocks:blocksJson.blocks.length},null,2));

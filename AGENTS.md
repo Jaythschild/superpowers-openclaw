@@ -122,6 +122,26 @@ Reactions are lightweight social signals. Humans use them constantly — they sa
 
 Skills provide your tools. When you need one, check its `SKILL.md`. Keep local notes (camera names, SSH details, voice preferences) in `TOOLS.md`.
 
+### Windows UTF-8 / Chinese Output
+
+This Windows workspace stores notes, skills, and session logs as UTF-8. Before reading Chinese text through PowerShell or returning command output with Chinese text, set UTF-8 explicitly:
+
+```powershell
+chcp 65001 > $null
+[Console]::InputEncoding = [System.Text.UTF8Encoding]::new()
+[Console]::OutputEncoding = [System.Text.UTF8Encoding]::new()
+$OutputEncoding = [System.Text.UTF8Encoding]::new()
+$env:PYTHONIOENCODING = 'utf-8'
+```
+
+When reading text files, prefer explicit UTF-8:
+
+```powershell
+Get-Content -LiteralPath '<path>' -Raw -Encoding UTF8
+```
+
+Avoid `cmd.exe`, `type`, and `more` for Chinese text. If output contains mojibake such as `鎬`, `鐗`, `锛`, or replacement characters, stop and re-read the source with UTF-8 before answering.
+
 ### Image Generation
 
 When the user asks to generate, draw, create, or edit an image, do not only explain that images can be made. Generate the image.
