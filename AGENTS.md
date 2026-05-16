@@ -163,6 +163,18 @@ Fallback command from this workspace:
 
 Return the generated file path clearly. Use a unique output filename for each request and keep it under `D:\openclaw-stack\workspace\images\`. The configured image model is `openai/gpt-image-2`; allow up to 300 seconds for generation.
 
+### Model Routing Visibility
+
+Default chat routing is `openai/gpt-5.5`. The only local fallback is `lmstudio/qwen/qwen3.6-27b`.
+
+When `openai/gpt-5.5` is selected but unavailable, OpenClaw may automatically fall back to `lmstudio/qwen/qwen3.6-27b` so the user still gets an answer. In that case, be explicit at the start of the reply:
+
+```text
+当前 GPT 5.5 连接不可用，已自动回退到本地 Qwen3.6（lmstudio/qwen/qwen3.6-27b）。
+```
+
+Do not imply the response came from GPT 5.5 when the actual runtime provider/model is `lmstudio/qwen/qwen3.6-27b`. If the user intentionally selected the local model or asked for local/heavy-token routing, no warning is needed; just use the local model normally.
+
 **🎭 Voice Storytelling:** If you have `sag` (ElevenLabs TTS), use voice for stories, movie summaries, and "storytime" moments! Way more engaging than walls of text. Surprise people with funny voices.
 
 **📝 Platform Formatting:**

@@ -1,0 +1,35 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - generic [ref=e13]: 商品
+          - img [ref=e14]
+        - textbox [ref=e18]: 普丽普莱 辅酶Q10 200mg 240粒
+        - generic [ref=e19]:
+          - generic [ref=e20]: 搜索
+          - img [ref=e22]
+      - generic [ref=e24]:
+        - generic [ref=e26]:
+          - generic [ref=e27]:
+            - generic [ref=e28]:
+              - generic [ref=e29]: 综合
+              - img [ref=e30]
+            - generic [ref=e32]: 销量
+            - generic [ref=e33]:
+              - img [ref=e35]
+              - generic [ref=e36]:
+                - generic [ref=e37]: 筛选
+                - img [ref=e38]
+          - generic:
+            - generic:
+              - generic [ref=e39]:
+                - generic [ref=e40]: 综合
+                - img [ref=e41]
+              - generic [ref=e43]: 信用
+              - generic [ref=e45]: 价格降序
+              - generic [ref=e47]: 价格升序
+        - generic [ref=e60]:
+          - img [ref=e61]
+          - generic [ref=e62]: 网络竟然崩溃了
+          - generic [ref=e63]: “别紧张，试试看刷新页面”

@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>视觉设计进步对比｜2026-05-16</title>
+<style>
+:root{
+  --ink:#18202f;
+  --muted:#667085;
+  --line:#d9e1ec;
+  --paper:#f6f8fb;
+  --panel:#ffffff;
+  --blue:#2563eb;
+  --cyan:#0891b2;
+  --green:#16875f;
+  --amber:#b7791f;
+  --red:#c2413a;
+  --soft-blue:#eaf1ff;
+  --soft-green:#e9f7ef;
+  --soft-amber:#fff4d8;
+  --soft-red:#ffe8e6;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:"Microsoft YaHei", "Segoe UI", Arial, sans-serif;
+  color:var(--ink);
+  background:var(--paper);
+}
+header{
+  padding:32px clamp(18px,4vw,48px) 22px;
+  border-bottom:1px solid var(--line);
+  background:#ffffff;
+}
+.kicker{font-size:13px;color:var(--blue);font-weight:700;letter-spacing:0}
+h1{margin:8px 0 8px;font-size:clamp(28px,4vw,46px);line-height:1.08;letter-spacing:0}
+.lead{max-width:920px;color:#344054;font-size:17px;line-height:1.7;margin:0}
+.wrap{padding:26px clamp(16px,3vw,42px) 40px}
+.compare{
+  display:grid;
+  grid-template-columns:minmax(280px,1fr) minmax(280px,1fr);
+  gap:24px;
+  align-items:start;
+}
+.section-title{
+  display:flex;justify-content:space-between;align-items:center;gap:12px;
+  margin:0 0 12px;
+}
+.section-title h2{font-size:20px;margin:0}
+.badge{font-size:12px;font-weight:700;border-radius:999px;padding:6px 10px;background:#eef2f6;color:#475467}
+.page{
+  min-height:760px;
+  background:var(--panel);
+  border:1px solid var(--line);
+  box-shadow:0 16px 35px rgba(16,24,40,.08);
+  overflow:hidden;
+}
+.before{padding:24px}
+.before h3{font-size:22px;margin:0 0 12px}
+.before h4{font-size:17px;margin:24px 0 8px}
+.before p,.before li{font-size:14px;line-height:1.78;color:#344054}
+.before ul{padding-left:22px}
+.before .source{font-size:12px;color:#667085;word-break:break-all}
+
+.after .hero{
+  padding:28px 30px 24px;
+  background:linear-gradient(135deg,#10213f 0%,#1f3c88 58%,#0f766e 100%);
+  color:white;
+}
+.after .hero .date{font-size:12px;font-weight:700;opacity:.78}
+.after .hero h3{font-size:34px;line-height:1.1;margin:10px 0}
+.after .hero p{font-size:15px;line-height:1.65;margin:0;max-width:720px;color:#e8eefc}
+.metrics{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:10px;
+  padding:16px 18px;
+  background:#f8fafc;
+  border-bottom:1px solid var(--line);
+}
+.metric{
+  background:#fff;
+  border:1px solid #e4e9f2;
+  padding:12px;
+  min-height:76px;
+}
+.metric b{display:block;font-size:20px;margin-bottom:5px}
+.metric span{font-size:12px;color:var(--muted);line-height:1.35}
+.after-main{
+  display:grid;
+  grid-template-columns:190px 1fr;
+  gap:18px;
+  padding:20px;
+}
+.rail{
+  border-right:1px solid var(--line);
+  padding-right:16px;
+}
+.rail h4,.cards h4{margin:0 0 12px;font-size:14px;color:#344054}
+.signal{
+  padding:10px 10px;
+  border-radius:6px;
+  margin-bottom:10px;
+  font-size:13px;
+  line-height:1.45;
+  font-weight:700;
+}
+.s-blue{background:var(--soft-blue);color:var(--blue)}
+.s-green{background:var(--soft-green);color:var(--green)}
+.s-amber{background:var(--soft-amber);color:var(--amber)}
+.s-red{background:var(--soft-red);color:var(--red)}
+.card{
+  border:1px solid #e4e9f2;
+  border-radius:8px;
+  padding:14px;
+  margin-bottom:12px;
+  background:#fff;
+}
+.card .tag{font-size:11px;font-weight:800;color:var(--blue);margin-bottom:7px}
+.card h5{font-size:17px;margin:0 0 7px;line-height:1.25}
+.card p{font-size:13px;color:#475467;line-height:1.58;margin:0}
+.observation{
+  margin-top:14px;
+  border-left:4px solid var(--blue);
+  background:#f8fbff;
+  padding:13px 14px;
+  font-size:13px;
+  line-height:1.65;
+}
+.notes{
+  margin-top:24px;
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:16px;
+}
+.note{
+  background:#fff;
+  border:1px solid var(--line);
+  padding:16px;
+}
+.note h3{font-size:16px;margin:0 0 8px}
+.note p{font-size:13px;line-height:1.65;color:#475467;margin:0}
+@media (max-width:920px){
+  .compare{grid-template-columns:1fr}
+  .metrics{grid-template-columns:repeat(2,1fr)}
+  .after-main{grid-template-columns:1fr}
+  .rail{border-right:0;border-bottom:1px solid var(--line);padding-right:0;padding-bottom:12px}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="kicker">NAS VISUAL LEARNING · 2026-05-16</div>
+  <h1>版式构成与视觉重心：进步对比</h1>
+  <p class="lead">同一份 AI 日报内容，左侧是信息顺序堆叠，右侧是经过视觉重心、分组、色彩语义和扫描路径优化后的版本。重点不是装饰，而是让读者更快理解“今天真正重要的是什么”。</p>
+</header>
+<main class="wrap">
+  <div class="compare">
+    <section>
+      <div class="section-title"><h2>普通版</h2><span class="badge">内容完整，但重点平均</span></div>
+      <article class="page before">
+        <h3>AI 重大新闻日报｜2026-05-16</h3>
+        <p>今日摘要：Google I/O 进入倒计时，企业 AI 继续升温，政府与国防 AI 合作扩大，Nvidia 仍是算力主线。</p>
+        <h4>1. Google I/O 前夕</h4>
+        <p>Gemini、AI 搜索、Workspace AI、Android 端侧 AI 是核心看点。Google 的优势不只是模型，而是入口。</p>
+        <h4>2. 企业 AI 从 Demo 进入生产系统</h4>
+        <p>企业更关心权限、审计、可恢复流程、知识库可靠性和成本控制。模型公司都在争夺企业工作流入口。</p>
+        <h4>3. 政府与国防 AI 合作扩大</h4>
+        <p>公开报道显示，美国政府和国防体系正在扩大与主流 AI、云、芯片公司的合作。</p>
+        <h4>4. Nvidia 仍是基础设施关键变量</h4>
+        <p>AI 产业短期看应用，长期绕不开算力。GPU 供应、云采购和出口限制会继续影响行业节奏。</p>
+        <h4>5. 对 OpenClaw 的启发</h4>
+        <ul>
+          <li>只接模型不够，要把任务跑稳。</li>
+          <li>工具权限要清晰。</li>
+          <li>记忆要分层。</li>
+          <li>定时任务要可恢复、可追踪。</li>
+        </ul>
+        <h4>参考来源</h4>
+        <p class="source">Android Headlines、IDLEN、AIToolsRecap、MSN 等。</p>
+      </article>
+    </section>
+
+    <section>
+      <div class="section-title"><h2>优化版</h2><span class="badge">第一眼有判断，扫描路径清楚</span></div>
+      <article class="page after">
+        <div class="hero">
+          <div class="date">2026-05-16 · AI DAILY BRIEF</div>
+          <h3>AI 正在从模型竞争进入生产系统竞争</h3>
+          <p>今天的关键不是单点发布，而是平台、政府、企业、算力和权限体系正在把 AI 变成可部署的基础设施。</p>
+        </div>
+        <div class="metrics">
+          <div class="metric"><b>4</b><span>核心产业信号</span></div>
+          <div class="metric"><b>2</b><span>高优先级风险</span></div>
+          <div class="metric"><b>3</b><span>持续追踪方向</span></div>
+          <div class="metric"><b>1</b><span>OpenClaw 启发</span></div>
+        </div>
+        <div class="after-main">
+          <aside class="rail">
+            <h4>今日信号</h4>
+            <div class="signal s-blue">平台入口：Google I/O 与 Gemini</div>
+            <div class="signal s-green">企业落地：Agent 进入生产流程</div>
+            <div class="signal s-red">高敏场景：政府/国防合作扩大</div>
+            <div class="signal s-amber">基础设施：Nvidia 与算力供给</div>
+          </aside>
+          <section class="cards">
+            <h4>重点新闻</h4>
+            <div class="card">
+              <div class="tag">PLATFORM</div>
+              <h5>Google I/O 前夕，AI 搜索与 Android 端侧 AI 值得盯紧</h5>
+              <p>入口优势会放大模型能力，真正改变使用规模的是系统级分发。</p>
+            </div>
+            <div class="card">
+              <div class="tag">ENTERPRISE</div>
+              <h5>企业 AI 的竞争焦点转向权限、审计与可恢复任务</h5>
+              <p>企业买的不是聊天窗口，而是能进入现有流程的可靠能力。</p>
+            </div>
+            <div class="card">
+              <div class="tag">INFRA</div>
+              <h5>Nvidia 仍是行业节奏器</h5>
+              <p>算力影响模型价格、延迟、推理规模和 Agent 的可用性。</p>
+            </div>
+            <div class="observation">
+              <b>纳斯观察：</b>OpenClaw 后续重点应继续放在稳定执行、权限边界、长期记忆和多工具协同。模型只是发动机，系统能力才决定能不能长期工作。
+            </div>
+          </section>
+        </div>
+      </article>
+    </section>
+  </div>
+
+  <section class="notes">
+    <div class="note"><h3>进步 1：入口更明确</h3><p>优化版把“今天的判断”放在顶部，读者不用先读完五段新闻才知道主线。</p></div>
+    <div class="note"><h3>进步 2：信息可比较</h3><p>新闻卡片使用相同结构，标题、标签、判断稳定出现，适合快速扫描。</p></div>
+    <div class="note"><h3>进步 3：视觉权重服务内容</h3><p>颜色不是装饰，而是区分平台、企业、风险、基础设施四类信息。</p></div>
+  </section>
+</main>
+</body>
+</html>
