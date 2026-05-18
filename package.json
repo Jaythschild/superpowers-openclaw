@@ -3,6 +3,6 @@
     "pptxgenjs": "^4.0.1"
   },
   "devDependencies": {
-    "@larksuite/cli": "^1.0.32"
+    "@larksuite/cli": "^1.0.33"
   }
 }

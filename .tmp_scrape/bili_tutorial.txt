@@ -1,0 +1,142 @@
+还在羡慕别人用 AI 开发酷产品？Claude Code 保姆级教学让你轻松体验 Vibe Coding, 动动嘴就能做出 Anything！_哔哩哔哩_bilibili
+首页
+番剧
+直播
+游戏中心
+会员购
+漫画
+赛事
+投稿
+还在羡慕别人用 AI 开发酷产品？Claude Code 保姆级教学让你轻松体验 Vibe Coding, 动动嘴就能做出 Anything！
+2.0万
+7
+2026-03-22 16:37:34
+未经作者授权，禁止转载
+790
+566
+1555
+202
+🔹 内容纲要
+00:00 Claude Code 安装
+03:31 Claude Code 基本操作简介
+07:39 建立 CLAUDE.md 文件
+09:41 还原对话或档案
+10:25 Skills 简介
+16:09 Hooks 简介
+16:57 Subagents 简介
+19:15 MCP 简介
+20:42 压缩对话和用量检查
+21:30 Vibe Coding 实作范例
+🔹 网站连结
+Claude Code 安装 https://code.claude.com/docs/en/overview
+GitHub Anthropics 官方 Skills https://github.com/anthropics/skills 
+Nano Banana 2 Skill https://github.com/kingbootoshi/nano-banana-2-skill
+Google AI Studio https://aistudio.google.com/
+Notion MCP https://developers.notion.com/guides/mcp/get-started-with-mcp
+🔹 请 Papaya 喝咖啡 ☕️
+https://buymeacoffee.com/papayaclass
+🔹 频道会员影片目录
+https://bit.ly/3PaC4Jj
+#教学 #ClaudeCode #Claude #VibeCoding #AI #程式开发
+人工智能
+教程
+保姆级教学
+Claude Code
+PAPAYA电脑教室
+发消息
+PAPAYA 电脑教室在 Bilibili 的唯一官方帐号 ~~
+关注 31.1万
+肾坚如铁
+脚丫酸酸的
+接下来播放
+自动连播
+Agent Skill 从使用到原理，一次讲清
+马克的技术工作坊
+62.4万
+733
+【B站AI论坛】欢迎写代码、做产品的AI开发者发帖加入
+共建AI开发者交流地>>
+我抛弃了 Cursor，用 Claude Code 写了 99% 的代码 （Claude Code 深度体验）
+数字黑魔法
+24.0万
+74
+不写代码的我用Claude Code当我的职场替身！它又狗腿又努力！简直天选牛马！喜欢！好爱！
+珍妮丁丁AI说
+4.5万
+15
+人人都能用的Claude Code安装指南！
+珍妮丁丁AI说
+3.4万
+16
+保姆级Claude Code速成，必学！简单！【附完整文档】
+数字游牧人
+51.1万
+711
+Claude Code 又被封号？别折腾了，这才是国内开发者的终极解法！
+程序员阿江-Relakkes
+8.3万
+24
+Python 零基础新手入门 #10 Class (类别)
+PAPAYA电脑教室
+5.2万
+58
+【最新】Claude Pro注册订阅教程，Claude Opus 4.6轻松使用，手把手教学，小白也看得懂！
+AI三分钟
+3.4万
+10
+Claude Code: 从零搭建你的 AI 工作团队（Skills + Agents）| 回到Axton
+回到Axton
+5.3万
+12
+如何在IDE内部使用ClaudeCode
+创哥的AI实验室
+6.6万
+12
+Claude Code保姆级全套教程（软件+文档），从入门到精通，搞定所有开发场景，零基础十分钟上手，全程干货无废话！
+舔砖加瓦编程小马
+4.1万
+9
+翻遍整个B站，这绝对是讲的最好的Claude Code入门到精通教程，2025手把手教你Claude Code企业级实战案例，存下吧，比啃书好多了！
+图灵官方视频号
+29.9万
+254
+openclaw和claude code的区别是什么？
+六耳玩AI
+3.0万
+5
+40分钟掌握Claude Code的95%核心内容（新版+更新）
+GoldenSpiderAI
+1.9万
+3
+4月20号最新Claude Code使用安装教程，手把手教你在国内怎么免费使用安装Claude Code！
+Claudecode使用教程
+1.7万
+42
+ClaudeCode 使用教程 从零开发一个 AA 记账程序
+基本没用0_0
+1.2万
+0
+🚀Claude Code自动化开发必备神器！Ralph for Claude Code实战演示，导入PRD文档秒变任务清单，AI通宵帮你写代码！保姆级教程
+AI超元域
+2.9万
+3
+Claude Skills一口气学会，小学生都能看懂的提效神器！
+来真的
+5.6万
+108
+【Claude Code】这绝对是b站讲的最好的Claude Code教程，手把手教你在国内从安装到代码实战的保姆级教程！建议收藏学习!让你少走99%弯路！
+双非本想做大模型
+2.6万
+98
+Claude Code开发大师课-从入门到精通 | Claude Code Masterclass
+常春藤中英字幕课
+2.3万
+0
+展开
+投稿光遇剧场赢现金及周边！
+小窗
+客服
+顶部
+赛事库
+课堂
+2021拜年纪

@@ -50,6 +50,14 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 - When you make a mistake → document it so future-you doesn't repeat it
 - **Text > Brain** 📝
 
+### 压缩前摘要
+
+- 在上下文压缩、裁剪、重置或 memory flush 之前，先把当前会话要点写入记忆文件。
+- 摘要必须使用中文，并保留：当前任务、用户最新要求、已完成阶段、下一步、关键配置、模型路由、文件路径、命令、链接、错误原因、修复方案、测试结果和待确认事项。
+- 摘要要高密度、可恢复任务，不要只写“上下文已压缩”或泛泛总结。
+- 不要保存密钥、令牌、Cookie、OAuth code 或其他敏感凭据。
+- 压缩后继续工作时，先从压缩前摘要、当天 `memory/YYYY-MM-DD.md`、`MEMORY.md` 和当前可见消息恢复任务状态。
+
 ## Red Lines
 
 - Don't exfiltrate private data. Ever.
@@ -122,12 +130,34 @@ Reactions are lightweight social signals. Humans use them constantly — they sa
 
 Skills provide your tools. When you need one, check its `SKILL.md`. Keep local notes (camera names, SSH details, voice preferences) in `TOOLS.md`.
 
+### Default Language and Task Continuity
+
+- Always reply to Jay in Chinese unless Jay explicitly asks for another language.
+- Do not restart with a generic greeting after model switching, compaction, reconnects, or memory flushes.
+- If context was compacted or partially lost, first recover the active task from the current session, recent memory, and visible user message, then continue the task.
+- If you are unsure what the active task is after a reset, say exactly what you can still see and ask one concise clarification in Chinese.
+- For Feishu conversations, preserve the thread's active goal. When a user says "继续", continue the latest unfinished task in that Feishu thread instead of starting a new topic.
+
+### Model Routing and Local Work
+
+- The default core model is `openai/gpt-5.5`.
+- The local heavy-work fallback is `lmstudio/qwen/qwen3.6-27b`.
+- Use `lmstudio/qwen/qwen3.6-27b` for repeated work, long summarization, memory consolidation, draft expansion, and other token-heavy tasks.
+- If the selected GPT model is unavailable and the runtime falls back to local Qwen, explicitly tell Jay at the start of the reply:
+
+```text
+当前 GPT 5.5 连接不可用，已自动回退到本地 Qwen3.6（lmstudio/qwen/qwen3.6-27b）。
+```
+
+- If the local model is unavailable, explicitly say that LM Studio/Qwen is not running instead of silently acting like local routing worked.
+- Use the exact model names shown above. Do not invent aliases such as `qwen36-local`, `gpt55-cloud`, or `5.4`.
+
 ### Windows UTF-8 / Chinese Output
 
 This Windows workspace stores notes, skills, and session logs as UTF-8. Before reading Chinese text through PowerShell or returning command output with Chinese text, set UTF-8 explicitly:
 
 ```powershell
-chcp 65001 > $null
+$null = chcp 65001
 [Console]::InputEncoding = [System.Text.UTF8Encoding]::new()
 [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new()
 $OutputEncoding = [System.Text.UTF8Encoding]::new()
