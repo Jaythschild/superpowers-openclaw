@@ -1,0 +1,7 @@
+{
+  memory: {
+    qmd: {
+      command: "D:\\openclaw-stack\\workspace\\node_modules\\@tobilu\\qmd\\dist\\cli\\qmd.js"
+    }
+  }
+}

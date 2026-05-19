@@ -1,0 +1,31 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import { registerFeishuDocTools } from 'file:///D:/openclaw-stack/state/npm/node_modules/@openclaw/feishu/dist/api.js';
+const config=JSON.parse(fs.readFileSync('D:/openclaw-stack/state/openclaw.json','utf8'));
+const tools=new Map();
+const api={config,logger:{debug(){},warn(){},info(){},error(){}},registerTool(fn,meta){tools.set(meta.name,fn({agentAccountId:undefined,messageChannel:'feishu'}));}};
+registerFeishuDocTools(api); const doc=tools.get('feishu_doc');
+const doc_token='Efq7daX6NoE1x2xPWhwcNwh3nah';
+const dir='D:/openclaw-stack/workspace/images/art-design-course-premium-2026-05-19/fixed-ascii';
+const orders=[13,15,23,30,44,47];
+let res=await doc.execute('blocks-before-empty-fix',{action:'list_blocks',doc_token});
+let blocks=JSON.parse(res.content[0].text).blocks||[];
+let imgs=blocks.map((b,index)=>({b,index})).filter(x=>x.b.block_type===27);
+const done=[];
+for (const order of [...orders].sort((a,b)=>b-a)) {
+  const item=imgs[order-1];
+  const file=`${String(order).padStart(2,'0')}-premium-fixed.png`;
+  const fp=path.join(dir,file);
+  await doc.execute('delete-empty-premium-'+order,{action:'delete_block',doc_token,block_id:item.b.block_id});
+  const b64=fs.readFileSync(fp).toString('base64');
+  const up=await doc.execute('upload-empty-premium-b64-'+order,{action:'upload_image',doc_token,image:'data:image/png;base64,'+b64,filename:file,parent_block_id:doc_token,index:item.index});
+  done.push({order,file,index:item.index,upload:up?.details||up});
+}
+res=await doc.execute('blocks-after-empty-fix',{action:'list_blocks',doc_token});
+blocks=JSON.parse(res.content[0].text).blocks||[];
+imgs=blocks.filter(b=>b.block_type===27).map((b,i)=>({order:i+1,id:b.block_id,token:b.image?.token,width:b.image?.width,height:b.image?.height}));
+const bad=imgs.filter(x=>x.width===100||x.height===100||!x.token);
+const read=await doc.execute('read-after-empty-fix',{action:'read',doc_token});
+const checks={revision:read?.details?.revision_id,imageBlockCount:imgs.length,badCount:bad.length,bad,emptyImageCount:imgs.filter(x=>!x.token).length,widthSet:[...new Set(imgs.map(x=>x.width))],heightSet:[...new Set(imgs.map(x=>x.height))]};
+fs.writeFileSync('D:/openclaw-stack/workspace/learning/gpt55-premium-image-empty-fix-2026-05-19.json',JSON.stringify({checks,done},null,2),'utf8');
+console.log(JSON.stringify(checks,null,2));

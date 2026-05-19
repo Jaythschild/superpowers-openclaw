@@ -1,0 +1,139 @@
+{
+  "writeRes": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"blocks_deleted\": 199,\n  \"blocks_added\": 168,\n  \"images_processed\": 0\n}"
+      }
+    ],
+    "details": {
+      "success": true,
+      "blocks_deleted": 199,
+      "blocks_added": 168,
+      "images_processed": 0
+    }
+  },
+  "uploaded": [
+    {
+      "heading": "第八课｜生成后验收：没有检查就不能交付",
+      "file": "08-生成验收-v5.png",
+      "index": 134,
+      "result": {
+        "success": true,
+        "block_id": "doxcn6MN1kgTg5To8s3DiiVYWif",
+        "file_token": "BB0gbPvIuoaT3rxYERPcgM1knJh",
+        "file_name": "08-生成验收-v5.png",
+        "size": 140277
+      }
+    },
+    {
+      "heading": "第七课｜教程应用：把知识点变成练习",
+      "file": "07-教程应用-v5.png",
+      "index": 117,
+      "result": {
+        "success": true,
+        "block_id": "doxcnfTL7mUqFvPzb1Sg7R7r0De",
+        "file_token": "AdCBb5h6qoWtJvxtD9qc8pjunSd",
+        "file_name": "07-教程应用-v5.png",
+        "size": 137563
+      }
+    },
+    {
+      "heading": "第六课｜日报应用：从新闻堆叠变成判断产品",
+      "file": "06-日报应用-v5.png",
+      "index": 101,
+      "result": {
+        "success": true,
+        "block_id": "doxcnmOe7Zxo935bzsQgwuIclVO",
+        "file_token": "JT0mbMyUOoISK9xWjiockVX5n0e",
+        "file_name": "06-日报应用-v5.png",
+        "size": 139778
+      }
+    },
+    {
+      "heading": "第五课｜案例图解：每个知识点都必须可视化",
+      "file": "05-案例图解-v5.png",
+      "index": 85,
+      "result": {
+        "success": true,
+        "block_id": "doxcnFbIkKYGotXufXNsEnFa6Yc",
+        "file_token": "HUDsbUwjsoSNnQx0ahPce2penjc",
+        "file_name": "05-案例图解-v5.png",
+        "size": 140775
+      }
+    },
+    {
+      "heading": "第四课｜视觉系统：颜色、字体、网格必须有职责",
+      "file": "04-视觉系统-v5.png",
+      "index": 68,
+      "result": {
+        "success": true,
+        "block_id": "doxcn4Om0PljNDarSSf87j4qHFf",
+        "file_token": "FXFnbohkuo0EfSxMQTOcliJTnBb",
+        "file_name": "04-视觉系统-v5.png",
+        "size": 146149
+      }
+    },
+    {
+      "heading": "第三课｜中文信息密度：把长文切成可扫读模块",
+      "file": "03-中文密度-v5.png",
+      "index": 53,
+      "result": {
+        "success": true,
+        "block_id": "doxcn6tFU7odpzKNdUIBvc7OhDe",
+        "file_token": "SN5Ib93T2osheDxmmsKc5navnvd",
+        "file_name": "03-中文密度-v5.png",
+        "size": 139404
+      }
+    },
+    {
+      "heading": "第二课｜阅读路径：一屏只安排一个主判断",
+      "file": "02-阅读路径-v5.png",
+      "index": 39,
+      "result": {
+        "success": true,
+        "block_id": "doxcnpKpDBT4T4XpLNWTpYjbkJb",
+        "file_token": "YROJbfgHcouIAtxLM48cwLnFnDd",
+        "file_name": "02-阅读路径-v5.png",
+        "size": 134113
+      }
+    },
+    {
+      "heading": "第一课｜内容设计：先定读者任务",
+      "file": "01-内容设计-v5.png",
+      "index": 23,
+      "result": {
+        "success": true,
+        "block_id": "doxcnx29cw6UVPRoUViDVrPmfEh",
+        "file_token": "ZEiZbdiB4oAKIrxvPRJcut32nTc",
+        "file_name": "01-内容设计-v5.png",
+        "size": 132452
+      }
+    },
+    {
+      "heading": "课程总目标｜先把内容变成作品系统",
+      "file": "00-cover-content-system-v5.png",
+      "index": 4,
+      "result": {
+        "success": true,
+        "block_id": "doxcnQ3TcfBLri8rBskkXngHSie",
+        "file_token": "Hqd5bvOauohXCDxzYxfcRr7mnac",
+        "file_name": "00-cover-content-system-v5.png",
+        "size": 173886
+      }
+    }
+  ],
+  "checks": {
+    "titleV5": true,
+    "hasEightLessons": true,
+    "hasDailyRule": true,
+    "hasTutorialRule": true,
+    "hasReportRule": true,
+    "oldMarkersPresent": [],
+    "imageBlocks": 9,
+    "emptyImages": [],
+    "uploadedCount": 9,
+    "revision": 241,
+    "blockCount": 178
+  }
+}

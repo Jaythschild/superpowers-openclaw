@@ -332,6 +332,7 @@
 - Material Design：颜色系统、排版、网格、响应式布局
 - W3C WCAG 2.2：数字内容可访问性、文字/图形对比度
 - Figma Learn Design Systems：设计系统、样式、组件、颜色、字体、文档化
+- Dribbble：优秀视觉作品与 UI/品牌/插画/动效案例观察，重点学习构图、配色、字体层级、风格趋势和表现手法
 
 
 ---
@@ -423,3 +424,9 @@
 - Figma Learn: Typography  
   https://www.figma.com/learn/typography/
   - 参考点：字体选择、层级、阅读体验和版面表达。
+
+### Dribbble
+
+- Dribbble  
+  https://dribbble.com
+  - 参考点：优秀视觉作品、UI/品牌/插画/动效案例、构图、配色、字体层级、风格趋势与表现手法。

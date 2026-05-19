@@ -1,0 +1,125 @@
+{
+  "writeRes": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"blocks_deleted\": 344,\n  \"blocks_added\": 191,\n  \"images_processed\": 0\n}"
+      }
+    ],
+    "details": {
+      "success": true,
+      "blocks_deleted": 344,
+      "blocks_added": 191,
+      "images_processed": 0
+    }
+  },
+  "uploaded": [
+    {
+      "heading": "第七课｜交付检查：生成后必须验收",
+      "file": "07-交付检查-case-v4.png",
+      "index": 144,
+      "result": {
+        "success": true,
+        "block_id": "doxcn6EoswwECSjtNIFAqsYw2Jf",
+        "file_token": "MMyiblkn0oz7S0xenRecqiW3n6d",
+        "file_name": "07-交付检查-case-v4.png",
+        "size": 156229
+      }
+    },
+    {
+      "heading": "第六课｜案例配图：每个案例一图一文",
+      "file": "06-案例配图-case-v4.png",
+      "index": 124,
+      "result": {
+        "success": true,
+        "block_id": "doxcnqPhcdkzLue7I9HqBDWf6jc",
+        "file_token": "CnNdbIbT0oXeWjxjsngcO1nLn3f",
+        "file_name": "06-案例配图-case-v4.png",
+        "size": 151120
+      }
+    },
+    {
+      "heading": "第五课｜信息图标注：让图自己说话",
+      "file": "05-信息图标注-case-v4.png",
+      "index": 104,
+      "result": {
+        "success": true,
+        "block_id": "doxcnnQczohNMYKhDezqz1E9ABb",
+        "file_token": "LptBbm6y9osP8RxCIlJcPNXQnhf",
+        "file_name": "05-信息图标注-case-v4.png",
+        "size": 157631
+      }
+    },
+    {
+      "heading": "第四课｜报告版式：材料变成路径",
+      "file": "04-报告版式-case-v4.png",
+      "index": 84,
+      "result": {
+        "success": true,
+        "block_id": "doxcnenE2wmR1rXfgXKs0ZtcdDh",
+        "file_token": "E6nRbI8Lmot1LwxPGGmclt01nNd",
+        "file_name": "04-报告版式-case-v4.png",
+        "size": 155069
+      }
+    },
+    {
+      "heading": "第三课｜色彩系统：颜色承担角色",
+      "file": "03-色彩系统-case-v4.png",
+      "index": 63,
+      "result": {
+        "success": true,
+        "block_id": "doxcnhYjAZuVZ14peTUHQqtTIAg",
+        "file_token": "UZAmbPBmIoFjgrxtgEjcMFe3nMe",
+        "file_name": "03-色彩系统-case-v4.png",
+        "size": 156840
+      }
+    },
+    {
+      "heading": "第二课｜中文排版：长文要有呼吸",
+      "file": "02-中文排版-case-v4.png",
+      "index": 43,
+      "result": {
+        "success": true,
+        "block_id": "doxcnuR9Fj751lOTqK24fMTKD0e",
+        "file_token": "R0yZbQVSpomjJjxicStcTeTrnnc",
+        "file_name": "02-中文排版-case-v4.png",
+        "size": 150576
+      }
+    },
+    {
+      "heading": "第一课｜视觉层级：先给观看顺序",
+      "file": "01-视觉层级-case-v4.png",
+      "index": 24,
+      "result": {
+        "success": true,
+        "block_id": "doxcnM7KJfQbT0Z4kXOGT4uT4fg",
+        "file_token": "RYEWbNhf9o00vzxN2AmcBIgRn5d",
+        "file_name": "01-视觉层级-case-v4.png",
+        "size": 155261
+      }
+    },
+    {
+      "heading": "封面｜从内容整理到视觉作品",
+      "file": "00-cover-opendesign-course-v4.png",
+      "index": 4,
+      "result": {
+        "success": true,
+        "block_id": "doxcnZB5GD3xVZnuiDGpMy7h9Og",
+        "file_token": "XaN4boht4oTXgvxdR5mc53VdnFn",
+        "file_name": "00-cover-opendesign-course-v4.png",
+        "size": 193544
+      }
+    }
+  ],
+  "checks": {
+    "hasV4Title": true,
+    "hasOpenDesignWorkflow": true,
+    "hasAllSevenLessons": true,
+    "hasOldBoardLesson": false,
+    "imageBlocks": 8,
+    "emptyImages": [],
+    "uploadedCount": 8,
+    "revision": 218,
+    "blockCount": 200
+  }
+}

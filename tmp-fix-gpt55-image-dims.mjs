@@ -1,0 +1,31 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import { registerFeishuDocTools } from 'file:///D:/openclaw-stack/state/npm/node_modules/@openclaw/feishu/dist/api.js';
+const config=JSON.parse(fs.readFileSync('D:/openclaw-stack/state/openclaw.json','utf8'));
+const tools=new Map();
+const api={config,logger:{debug(){},warn(){},info(){},error(){}},registerTool(fn,meta){tools.set(meta.name,fn({agentAccountId:undefined,messageChannel:'feishu'}));}};
+registerFeishuDocTools(api); const doc=tools.get('feishu_doc');
+const doc_token='Efq7daX6NoE1x2xPWhwcNwh3nah';
+const imageDir='D:/openclaw-stack/workspace/images/art-design-course-premium-2026-05-19';
+const targetOrders=new Set([13,15,23,30,44,47]);
+let res=await doc.execute('blocks-before-dim-fix',{action:'list_blocks',doc_token});
+let blocks=JSON.parse(res.content[0].text).blocks||[];
+let imgs=blocks.map((b,index)=>({b,index})).filter(x=>x.b.block_type===27);
+const files=fs.readdirSync(imageDir).filter(f=>/^[0-9]{2}-.*\.png$/i.test(f)).sort((a,b)=>Number(a.slice(0,2))-Number(b.slice(0,2)));
+const fixed=[];
+for (let order of [...targetOrders].sort((a,b)=>b-a)) {
+  const item=imgs[order-1];
+  const file=files[order-1];
+  const file_path=path.join(imageDir,file);
+  await doc.execute('delete-dim100-'+order,{action:'delete_block',doc_token,block_id:item.b.block_id});
+  const up=await doc.execute('upload-dim100-filepath-'+order,{action:'upload_image',doc_token,file_path,parent_block_id:doc_token,index:item.index});
+  fixed.push({order,file,index:item.index,upload:up?.details||up});
+}
+res=await doc.execute('blocks-after-dim-fix',{action:'list_blocks',doc_token});
+blocks=JSON.parse(res.content[0].text).blocks||[];
+imgs=blocks.filter(b=>b.block_type===27).map((b,i)=>({order:i+1,id:b.block_id,token:b.image?.token,width:b.image?.width,height:b.image?.height}));
+const bad=imgs.filter(x=>x.width===100||x.height===100||!x.token);
+const read=await doc.execute('read-after-dim-fix',{action:'read',doc_token});
+const checks={revision:read?.details?.revision_id,imageBlockCount:imgs.length,badCount:bad.length,bad,emptyImageCount:imgs.filter(x=>!x.token).length,widthSet:[...new Set(imgs.map(x=>x.width))],heightSet:[...new Set(imgs.map(x=>x.height))]};
+fs.writeFileSync('D:/openclaw-stack/workspace/learning/gpt55-premium-image-dim-fix-2026-05-19.json',JSON.stringify({checks,fixed},null,2),'utf8');
+console.log(JSON.stringify(checks,null,2));

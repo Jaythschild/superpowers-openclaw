@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <rect width="1200" height="760" fill="#F5F7FA"/>
+  <text x="70" y="78" font-size="38" font-family="Microsoft YaHei, Arial" fill="#18212F" font-weight="700">示例 2｜板书式报告的三段推演</text>
+  <rect x="80" y="155" width="300" height="360" rx="24" fill="#FFFFFF" stroke="#B9C2CF" stroke-width="2"/>
+  <text x="125" y="225" font-size="30" font-family="Microsoft YaHei" fill="#1F4E79" font-weight="700">发生了什么</text>
+  <text x="125" y="292" font-size="24" font-family="Microsoft YaHei" fill="#3A4658">事实</text>
+  <text x="125" y="340" font-size="24" font-family="Microsoft YaHei" fill="#3A4658">变化</text>
+  <text x="125" y="388" font-size="24" font-family="Microsoft YaHei" fill="#3A4658">数据或案例</text>
+  <rect x="450" y="155" width="300" height="360" rx="24" fill="#FFFFFF" stroke="#90B7D4" stroke-width="3"/>
+  <text x="495" y="225" font-size="30" font-family="Microsoft YaHei" fill="#1F4E79" font-weight="700">为什么重要</text>
+  <text x="495" y="292" font-size="24" font-family="Microsoft YaHei" fill="#3A4658">影响</text>
+  <text x="495" y="340" font-size="24" font-family="Microsoft YaHei" fill="#3A4658">机会</text>
+  <text x="495" y="388" font-size="24" font-family="Microsoft YaHei" fill="#3A4658">风险</text>
+  <rect x="820" y="155" width="300" height="360" rx="24" fill="#FFFFFF" stroke="#A8D5BA" stroke-width="3"/>
+  <text x="865" y="225" font-size="30" font-family="Microsoft YaHei" fill="#23613F" font-weight="700">下一步做什么</text>
+  <text x="865" y="292" font-size="24" font-family="Microsoft YaHei" fill="#3A4658">安装或学习</text>
+  <text x="865" y="340" font-size="24" font-family="Microsoft YaHei" fill="#3A4658">继续观察</text>
+  <text x="865" y="388" font-size="24" font-family="Microsoft YaHei" fill="#3A4658">暂缓投入</text>
+  <path d="M390 335 L440 335" stroke="#1F7A8C" stroke-width="8" marker-end="url(#arrow)"/>
+  <path d="M760 335 L810 335" stroke="#1F7A8C" stroke-width="8" marker-end="url(#arrow)"/>
+  <rect x="140" y="585" width="920" height="72" rx="18" fill="#18212F"/>
+  <text x="178" y="632" font-size="25" font-family="Microsoft YaHei" fill="#FFFFFF">检查：删掉任意一段，如果读者还看得懂，说明这一段可能不是必要信息。</text>
+  <defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#1F7A8C"/></marker></defs>
+</svg>

@@ -1,0 +1,110 @@
+{
+  "checks": {
+    "revision": 676,
+    "imageBlockCount": 50,
+    "badCount": 6,
+    "bad": [
+      {
+        "order": 13,
+        "id": "doxcncVWyCi1zhMNI6FnXThJ7Cb",
+        "token": "",
+        "width": 100,
+        "height": 100
+      },
+      {
+        "order": 15,
+        "id": "doxcncIgrHmJOkmyjsvQYZfhEwf",
+        "token": "",
+        "width": 100,
+        "height": 100
+      },
+      {
+        "order": 23,
+        "id": "doxcn13E6MymQ8u9wlX3FqpLdDc",
+        "token": "",
+        "width": 100,
+        "height": 100
+      },
+      {
+        "order": 30,
+        "id": "doxcnpVlm5QtUA5ryadsSw7DIXc",
+        "token": "",
+        "width": 100,
+        "height": 100
+      },
+      {
+        "order": 44,
+        "id": "doxcndIiva3Veq0fMT2e85EzLNb",
+        "token": "",
+        "width": 100,
+        "height": 100
+      },
+      {
+        "order": 47,
+        "id": "doxcnpIKJv6ekvFj4o7bet0joab",
+        "token": "",
+        "width": 100,
+        "height": 100
+      }
+    ],
+    "emptyImageCount": 6,
+    "widthSet": [
+      1200,
+      100
+    ],
+    "heightSet": [
+      420,
+      100
+    ]
+  },
+  "fixed": [
+    {
+      "order": 47,
+      "file": "47-图文方法.png",
+      "index": 181,
+      "upload": {
+        "error": "Feishu runtime not initialized"
+      }
+    },
+    {
+      "order": 44,
+      "file": "44-检查.png",
+      "index": 167,
+      "upload": {
+        "error": "Feishu runtime not initialized"
+      }
+    },
+    {
+      "order": 30,
+      "file": "30-案例.png",
+      "index": 115,
+      "upload": {
+        "error": "Feishu runtime not initialized"
+      }
+    },
+    {
+      "order": 23,
+      "file": "23-图文方法.png",
+      "index": 89,
+      "upload": {
+        "error": "Feishu runtime not initialized"
+      }
+    },
+    {
+      "order": 15,
+      "file": "15-学习目标.png",
+      "index": 57,
+      "upload": {
+        "error": "Feishu runtime not initialized"
+      }
+    },
+    {
+      "order": 13,
+      "file": "13-练习.png",
+      "index": 50,
+      "upload": {
+        "error": "Feishu runtime not initialized"
+      }
+    }
+  ]
+}

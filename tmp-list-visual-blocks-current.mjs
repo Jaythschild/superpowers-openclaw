@@ -1,0 +1,12 @@
+import fs from 'node:fs';
+import { registerFeishuDocTools } from 'file:///D:/openclaw-stack/state/npm/node_modules/@openclaw/feishu/dist/api.js';
+const config = JSON.parse(fs.readFileSync('D:/openclaw-stack/state/openclaw.json','utf8'));
+const tools = new Map();
+const api = {config, logger:{debug(){}, warn(){}, info(){}, error(){}}, registerTool(fn, meta){ tools.set(meta.name, fn({agentAccountId: undefined, messageChannel:'webchat'})); }};
+registerFeishuDocTools(api);
+const doc=tools.get('feishu_doc');
+const r = await doc.execute('list_blocks',{action:'list_blocks', doc_token:'Efq7daX6NoE1x2xPWhwcNwh3nah'});
+fs.writeFileSync('D:/openclaw-stack/workspace/visual-knowledge-blocks.json', JSON.stringify(r,null,2),'utf8');
+const blocks = r?.details?.items || r?.blocks || r?.details || [];
+const arr = Array.isArray(blocks) ? blocks : (blocks.items || []);
+console.log(JSON.stringify({keys:Object.keys(r), count:arr.length, first:arr.slice(0,30).map((b,i)=>({i, block_id:b.block_id||b.blockId, type:b.block_type||b.type, text:b.text||b.content||b.heading1||b.heading2||b.heading3||b?.children_text}))}, null, 2));

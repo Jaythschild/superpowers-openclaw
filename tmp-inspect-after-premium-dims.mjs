@@ -1,0 +1,12 @@
+import fs from 'node:fs';
+import { registerFeishuDocTools } from 'file:///D:/openclaw-stack/state/npm/node_modules/@openclaw/feishu/dist/api.js';
+const config = JSON.parse(fs.readFileSync('D:/openclaw-stack/state/openclaw.json','utf8'));
+const tools = new Map();
+const api = { config, logger:{debug(){}, warn(){}, info(){}, error(){}}, registerTool(fn, meta){ tools.set(meta.name, fn({agentAccountId: undefined, messageChannel:'feishu'})); } };
+registerFeishuDocTools(api);
+const doc = tools.get('feishu_doc');
+const doc_token='Efq7daX6NoE1x2xPWhwcNwh3nah';
+const res=await doc.execute('inspect-after-premium-dims',{action:'list_blocks',doc_token});
+const blocks=JSON.parse(res.content[0].text).blocks||[];
+const imgs=blocks.filter(b=>b.block_type===27).map((b,i)=>({order:i+1,id:b.block_id,token:b.image?.token,width:b.image?.width,height:b.image?.height,scale:b.image?.scale,align:b.image?.align}));
+console.log(JSON.stringify({count:imgs.length,bad:imgs.filter(x=>x.width===100||x.height===100), first:imgs.slice(0,8)},null,2));

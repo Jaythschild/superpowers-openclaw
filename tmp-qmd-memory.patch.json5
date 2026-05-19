@@ -1,0 +1,28 @@
+{
+  memory: {
+    backend: "qmd",
+    citations: "auto",
+    qmd: {
+      command: "D:\\openclaw-stack\\workspace\\tools\\qmd-node.cmd",
+      searchMode: "search",
+      includeDefaultMemory: true,
+      update: {
+        interval: "5m",
+        debounceMs: 15000,
+        startup: "idle",
+        startupDelayMs: 60000
+      },
+      limits: {
+        maxResults: 8,
+        timeoutMs: 120000
+      },
+      scope: {
+        default: "deny",
+        rules: [
+          { action: "allow", match: { chatType: "direct" } },
+          { action: "allow", match: { chatType: "channel" } }
+        ]
+      }
+    }
+  }
+}
