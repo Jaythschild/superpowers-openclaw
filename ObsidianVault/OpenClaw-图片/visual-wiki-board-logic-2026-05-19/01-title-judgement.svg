@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <rect width="1200" height="760" fill="#F7F4EE"/>
+  <text x="70" y="78" font-size="38" font-family="Microsoft YaHei, Arial" fill="#19202A" font-weight="700">示例 1｜标题要写判断，不写栏目名</text>
+  <rect x="70" y="130" width="500" height="470" rx="22" fill="#FFFFFF" stroke="#D8D0C5" stroke-width="2"/>
+  <text x="110" y="190" font-size="28" font-family="Microsoft YaHei" fill="#9A3412" font-weight="700">学习前：主题型标题</text>
+  <text x="110" y="258" font-size="34" font-family="Microsoft YaHei" fill="#293241" font-weight="700">AI 日报趋势</text>
+  <text x="110" y="330" font-size="24" font-family="Microsoft YaHei" fill="#5B6472">问题：</text>
+  <text x="110" y="382" font-size="23" font-family="Microsoft YaHei" fill="#5B6472">只告诉读者“这是什么栏目”</text>
+  <text x="110" y="426" font-size="23" font-family="Microsoft YaHei" fill="#5B6472">没有说明最重要判断</text>
+  <text x="110" y="470" font-size="23" font-family="Microsoft YaHei" fill="#5B6472">读者需要自己归纳结论</text>
+  <rect x="630" y="130" width="500" height="470" rx="22" fill="#FFFFFF" stroke="#9BC7DD" stroke-width="3"/>
+  <text x="670" y="190" font-size="28" font-family="Microsoft YaHei" fill="#0F5E7A" font-weight="700">学习后：判断型标题</text>
+  <text x="670" y="250" font-size="30" font-family="Microsoft YaHei" fill="#19202A" font-weight="700">Agent 工具链正在成为</text>
+  <text x="670" y="292" font-size="30" font-family="Microsoft YaHei" fill="#19202A" font-weight="700">本周最值得跟进的主线</text>
+  <text x="670" y="360" font-size="24" font-family="Microsoft YaHei" fill="#256D4F">优点：</text>
+  <text x="670" y="412" font-size="23" font-family="Microsoft YaHei" fill="#354152">第一眼就知道结论</text>
+  <text x="670" y="456" font-size="23" font-family="Microsoft YaHei" fill="#354152">正文自然变成证据链</text>
+  <text x="670" y="500" font-size="23" font-family="Microsoft YaHei" fill="#354152">后续行动更容易落地</text>
+  <path d="M570 365 C600 340 600 340 630 365" stroke="#1F7A8C" stroke-width="7" fill="none" marker-end="url(#arrow)"/>
+  <defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#1F7A8C"/></marker></defs>
+  <text x="70" y="680" font-size="24" font-family="Microsoft YaHei" fill="#5B6472">操作规则：标题先回答“我现在判断什么”，再让正文回答“凭什么”和“怎么办”。</text>
+</svg>

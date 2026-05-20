@@ -1,0 +1,47 @@
+{
+  "ok": true,
+  "date": "2026-05-20",
+  "edition": "test",
+  "editionLabel": "测试版",
+  "workspaceRoot": "D:\\openclaw-stack\\workspace",
+  "reportDir": "D:\\openclaw-stack\\workspace\\reports\\ai-daily\\2026-05-20",
+  "reportDirRel": "reports\\ai-daily\\2026-05-20",
+  "imageDir": "D:\\openclaw-stack\\workspace\\images\\ai-daily\\2026-05-20",
+  "imageDirRel": "images\\ai-daily\\2026-05-20",
+  "tmpDir": "D:\\openclaw-stack\\workspace\\tmp\\ai-daily\\2026-05-20",
+  "tmpDirRel": "tmp\\ai-daily\\2026-05-20",
+  "reportMarkdown": "D:\\openclaw-stack\\workspace\\reports\\ai-daily\\2026-05-20\\ai-daily-2026-05-20-test.md",
+  "reportMarkdownRel": "reports\\ai-daily\\2026-05-20\\ai-daily-2026-05-20-test.md",
+  "manifest": "D:\\openclaw-stack\\workspace\\tmp\\ai-daily\\2026-05-20\\ai-daily-2026-05-20-test.json",
+  "manifestRel": "tmp\\ai-daily\\2026-05-20\\ai-daily-2026-05-20-test.json",
+  "larkCli": ".\\tools\\lark-cli-safe.cmd",
+  "pwshWrapper": ".\\tools\\openclaw-pwsh.cmd",
+  "imageGeneration": {
+    "status": "failed",
+    "degraded": true,
+    "model": "openai/gpt-image-1-mini",
+    "prompt": "生成一张极简红色圆点图标，白色背景，用于 OpenClaw 图片直连测试",
+    "size": "1024x1024",
+    "aspectRatio": "16:9",
+    "outputFormat": "png",
+    "maxAttempts": 1,
+    "retryDelaySeconds": 1,
+    "startedAt": "2026-05-20T20:53:32.4150992+08:00",
+    "endedAt": "2026-05-20T20:54:47.2784800+08:00",
+    "selectedImageRel": null,
+    "failureReason": "openclaw infer image generate exited with code 1: [image-generation/openai] image auth selected: provider=openai-codex mode=oauth transport=codex-responses requestedModel=gpt-image-1-mini responsesModel=gpt-5.5 timeoutMs=180000\r\n[image-generation] candidate failed: openai/gpt-image-1-mini: fetch failed | connect ETIMEDOUT 157.240.12.50:443\r\nTypeError: fetch failed",
+    "attempts": [
+      {
+        "attempt": 1,
+        "startedAt": "2026-05-20T20:53:32.4185204+08:00",
+        "endedAt": "2026-05-20T20:54:47.2744332+08:00",
+        "exitCode": 1,
+        "outputRel": "images\\ai-daily\\2026-05-20\\route-test-direct-gpt-image-1-mini-attempt-1.png",
+        "ok": false,
+        "dryRun": false,
+        "error": "openclaw infer image generate exited with code 1: [image-generation/openai] image auth selected: provider=openai-codex mode=oauth transport=codex-responses requestedModel=gpt-image-1-mini responsesModel=gpt-5.5 timeoutMs=180000\r\n[image-generation] candidate failed: openai/gpt-image-1-mini: fetch failed | connect ETIMEDOUT 157.240.12.50:443\r\nTypeError: fetch failed",
+        "stdoutTail": "[image-generation/openai] image auth selected: provider=openai-codex mode=oauth transport=codex-responses requestedModel=gpt-image-1-mini responsesModel=gpt-5.5 timeoutMs=180000\r\n[image-generation] candidate failed: openai/gpt-image-1-mini: fetch failed | connect ETIMEDOUT 157.240.12.50:443\r\nTypeError: fetch failed"
+      }
+    ]
+  }
+}

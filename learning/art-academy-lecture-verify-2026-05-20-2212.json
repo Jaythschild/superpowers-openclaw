@@ -1,0 +1,684 @@
+{
+  "checks": {
+    "revision": 1158,
+    "blockCount": 230,
+    "plannedImageCount": 50,
+    "uploadedOkCount": 50,
+    "imageBlockCount": 100,
+    "emptyImageCount": 50,
+    "widthSet": [
+      240,
+      100,
+      1400
+    ],
+    "heightSet": [
+      240,
+      100,
+      620
+    ],
+    "oldResidual": [
+      "AI 科技风",
+      "深蓝科技屏",
+      "节点网络",
+      "地球",
+      "泛 AI 氛围"
+    ],
+    "requiredMissing": [],
+    "batchDir": "D:\\openclaw-stack\\workspace\\images\\art-academy-lecture-2026-05-20-2212",
+    "manifestPath": "D:\\openclaw-stack\\workspace\\images\\art-academy-lecture-2026-05-20-2212\\manifest.json",
+    "backupPath": "D:\\openclaw-stack\\workspace\\learning\\backup-before-art-academy-lecture-2026-05-20-2212.md",
+    "link": "https://my.feishu.cn/wiki/MI56wWT54ipCPRkS7jIcRyWlnnb?fromScene=spaceOverview"
+  },
+  "uploaded": [
+    {
+      "heading": "第八课｜交付检查：好看必须能被验证｜检查",
+      "file": "50-art-academy-check.png",
+      "index": 168,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcnuiLwuuykzbl0cw8rNWRNjc",
+        "file_token": "PbiSbw1yvoYSBixdloXc2SbCnyg",
+        "file_name": "50-art-academy-check.png",
+        "size": 764722
+      }
+    },
+    {
+      "heading": "第八课｜交付检查：好看必须能被验证｜练习",
+      "file": "49-art-academy-practice.png",
+      "index": 165,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcnZsMqxYVceskN4ywSjlWaBb",
+        "file_token": "N3WWbmcHvo8pk2xaizIceze2nVh",
+        "file_name": "49-art-academy-practice.png",
+        "size": 766567
+      }
+    },
+    {
+      "heading": "第八课｜交付检查：好看必须能被验证｜案例",
+      "file": "48-art-academy-case.png",
+      "index": 162,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcnpJCp16qrePAJ4VMLZuSSfh",
+        "file_token": "DUzubn7l9oTmuExJfi2ccFEMnuc",
+        "file_name": "48-art-academy-case.png",
+        "size": 765604
+      }
+    },
+    {
+      "heading": "第八课｜交付检查：好看必须能被验证｜美化方法",
+      "file": "47-art-academy-method.png",
+      "index": 159,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcnbyDw0Pp45CzSzE9qjGZCCf",
+        "file_token": "DtnTb2kn3oVPyIxzh4Pc4rIonvg",
+        "file_name": "47-art-academy-method.png",
+        "size": 775237
+      }
+    },
+    {
+      "heading": "第八课｜交付检查：好看必须能被验证｜核心知识",
+      "file": "46-art-academy-core.png",
+      "index": 156,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcne9oHycA6F5W2tJHpvVgI0c",
+        "file_token": "F3zCb2bZRo9QvDxKMvJcBFn4nne",
+        "file_name": "46-art-academy-core.png",
+        "size": 779643
+      }
+    },
+    {
+      "heading": "第八课｜交付检查：好看必须能被验证｜学习目标",
+      "file": "45-art-academy-goal.png",
+      "index": 153,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcneLdFtTutwnhfwjt6eVehef",
+        "file_token": "Lm0dbIKTWozZ9wx5ym0c1fvhnfc",
+        "file_name": "45-art-academy-goal.png",
+        "size": 773462
+      }
+    },
+    {
+      "heading": "第七课｜图文案例：每个知识点都要可视化｜检查",
+      "file": "44-art-academy-check.png",
+      "index": 148,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcnZuoKvbR30EcAmeM3KJVPKg",
+        "file_token": "CQucbiQisot7xzxMOYEcuuDLn5c",
+        "file_name": "44-art-academy-check.png",
+        "size": 765455
+      }
+    },
+    {
+      "heading": "第七课｜图文案例：每个知识点都要可视化｜练习",
+      "file": "43-art-academy-practice.png",
+      "index": 145,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcnzyzNf5wyqa6wRTd8dZAqUf",
+        "file_token": "SSw7bhskMoPKi4xuni4c0T97nvf",
+        "file_name": "43-art-academy-practice.png",
+        "size": 768596
+      }
+    },
+    {
+      "heading": "第七课｜图文案例：每个知识点都要可视化｜案例",
+      "file": "42-art-academy-case.png",
+      "index": 142,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcnYxUAUG9scR30DNdjLJkXic",
+        "file_token": "B4robjKB3ovpQvxcIH7cJQ0Mnnf",
+        "file_name": "42-art-academy-case.png",
+        "size": 766593
+      }
+    },
+    {
+      "heading": "第七课｜图文案例：每个知识点都要可视化｜美化方法",
+      "file": "41-art-academy-method.png",
+      "index": 139,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcnivLCRExsWsawTc4aNLZEUg",
+        "file_token": "Pn0YbqtHqo8ybRxpg3Cc0LeBnBe",
+        "file_name": "41-art-academy-method.png",
+        "size": 776268
+      }
+    },
+    {
+      "heading": "第七课｜图文案例：每个知识点都要可视化｜核心知识",
+      "file": "40-art-academy-core.png",
+      "index": 136,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcnvkUTBErBC1g36QvZwHdYvh",
+        "file_token": "COVRbpmXhosB0MxEAyIcs0Aonah",
+        "file_name": "40-art-academy-core.png",
+        "size": 778362
+      }
+    },
+    {
+      "heading": "第七课｜图文案例：每个知识点都要可视化｜学习目标",
+      "file": "39-art-academy-goal.png",
+      "index": 133,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcn5LX9Ib70udziYF34yIFWig",
+        "file_token": "OBHxbSfrUo0XVtxGphHcx3QOnt8",
+        "file_name": "39-art-academy-goal.png",
+        "size": 775589
+      }
+    },
+    {
+      "heading": "第六课｜构图：用位置引导视线｜检查",
+      "file": "38-art-academy-check.png",
+      "index": 128,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcnaQvHtUQSRv8FREmuDkZPJb",
+        "file_token": "NCAibKVkLoxJwlxwBoUc0mOjnNb",
+        "file_name": "38-art-academy-check.png",
+        "size": 760474
+      }
+    },
+    {
+      "heading": "第六课｜构图：用位置引导视线｜练习",
+      "file": "37-art-academy-practice.png",
+      "index": 125,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcnIUsW9vrwsqpyJx0NB08h8e",
+        "file_token": "V8tYbkWl9oclDVx6n7GcXd7Hnud",
+        "file_name": "37-art-academy-practice.png",
+        "size": 763524
+      }
+    },
+    {
+      "heading": "第六课｜构图：用位置引导视线｜案例",
+      "file": "36-art-academy-case.png",
+      "index": 122,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcnMXmP9Qx6ajmfw5NG33r6hf",
+        "file_token": "CSjZbem8Yo8azoxVXq0c5GeOnRg",
+        "file_name": "36-art-academy-case.png",
+        "size": 761196
+      }
+    },
+    {
+      "heading": "第六课｜构图：用位置引导视线｜美化方法",
+      "file": "35-art-academy-method.png",
+      "index": 119,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcnEy1IQYUpgFtIIKMkQ7qG5g",
+        "file_token": "Pp2bbei6FoRdoAxw7fucW8bBnle",
+        "file_name": "35-art-academy-method.png",
+        "size": 771558
+      }
+    },
+    {
+      "heading": "第六课｜构图：用位置引导视线｜核心知识",
+      "file": "34-art-academy-core.png",
+      "index": 116,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcnjLh1cxIbhea1JFFzDnt9Hg",
+        "file_token": "BSLObNByMoMk04xEt4OcCMxAnAg",
+        "file_name": "34-art-academy-core.png",
+        "size": 774496
+      }
+    },
+    {
+      "heading": "第六课｜构图：用位置引导视线｜学习目标",
+      "file": "33-art-academy-goal.png",
+      "index": 113,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcnJKDtjd79iZE3vVbWDvdUjd",
+        "file_token": "QruYbvGBqodzXpxv2YncpgjEnDe",
+        "file_name": "33-art-academy-goal.png",
+        "size": 770424
+      }
+    },
+    {
+      "heading": "第五课｜字体：字体决定语气和层级｜检查",
+      "file": "32-art-academy-check.png",
+      "index": 108,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcnApS725CJGfAsOIjRjn36hh",
+        "file_token": "WG0dbifRMorTY2x0SnNcp4pOnph",
+        "file_name": "32-art-academy-check.png",
+        "size": 757489
+      }
+    },
+    {
+      "heading": "第五课｜字体：字体决定语气和层级｜练习",
+      "file": "31-art-academy-practice.png",
+      "index": 105,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcnn8UdOvEOAdm2dPvZ02Ogpb",
+        "file_token": "Hr9AbSnpzo5CJBxeVfRcD8yKnyd",
+        "file_name": "31-art-academy-practice.png",
+        "size": 761372
+      }
+    },
+    {
+      "heading": "第五课｜字体：字体决定语气和层级｜案例",
+      "file": "30-art-academy-case.png",
+      "index": 102,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcneVVJLnxsUoFYqgRwFTtI9J",
+        "file_token": "FslobsBDpoNCyUxa7xQcJE6YnIe",
+        "file_name": "30-art-academy-case.png",
+        "size": 758462
+      }
+    },
+    {
+      "heading": "第五课｜字体：字体决定语气和层级｜美化方法",
+      "file": "29-art-academy-method.png",
+      "index": 99,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcnLUwlWg3fGSVPpxjxizffte",
+        "file_token": "Ax8XbkzfDodzAjx9NTkceGAjnpc",
+        "file_name": "29-art-academy-method.png",
+        "size": 769945
+      }
+    },
+    {
+      "heading": "第五课｜字体：字体决定语气和层级｜核心知识",
+      "file": "28-art-academy-core.png",
+      "index": 96,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcnJNaTF4YwLIEIzTnHi9ypIh",
+        "file_token": "ZaPfbE8ypoHJDDx6lhTcXmHMnTh",
+        "file_name": "28-art-academy-core.png",
+        "size": 773288
+      }
+    },
+    {
+      "heading": "第五课｜字体：字体决定语气和层级｜学习目标",
+      "file": "27-art-academy-goal.png",
+      "index": 93,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcn4kluMLreORPkSrSbSfNVSd",
+        "file_token": "Tz21bBWpJoBJDIxjvcMc4aPmn9e",
+        "file_name": "27-art-academy-goal.png",
+        "size": 767728
+      }
+    },
+    {
+      "heading": "第四课｜色彩：颜色必须承担角色｜检查",
+      "file": "26-art-academy-check.png",
+      "index": 88,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcnlOcTXY25ohY2TPxtX1Rtkg",
+        "file_token": "JqPwbIofNoIbInxzqMBctwFOnwh",
+        "file_name": "26-art-academy-check.png",
+        "size": 761991
+      }
+    },
+    {
+      "heading": "第四课｜色彩：颜色必须承担角色｜练习",
+      "file": "25-art-academy-practice.png",
+      "index": 85,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcnXIarfe9jAmb1HhQQcZ5ubM",
+        "file_token": "Pr9AbkM2qoQYObxM6CucqN53nad",
+        "file_name": "25-art-academy-practice.png",
+        "size": 765906
+      }
+    },
+    {
+      "heading": "第四课｜色彩：颜色必须承担角色｜案例",
+      "file": "24-art-academy-case.png",
+      "index": 82,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcnpCbpJCkiB4sk1xf4rKIMMe",
+        "file_token": "BdULb0hRMoRrDixFHeccVxyQnKc",
+        "file_name": "24-art-academy-case.png",
+        "size": 763536
+      }
+    },
+    {
+      "heading": "第四课｜色彩：颜色必须承担角色｜美化方法",
+      "file": "23-art-academy-method.png",
+      "index": 79,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcnRmi8KpNaQKTLcJaQGq8Dnf",
+        "file_token": "BeWIbCIezoqYNzxBJi3cELD5nrg",
+        "file_name": "23-art-academy-method.png",
+        "size": 772999
+      }
+    },
+    {
+      "heading": "第四课｜色彩：颜色必须承担角色｜核心知识",
+      "file": "22-art-academy-core.png",
+      "index": 76,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcnUfHz3APeCUu7jUNWHYKrdg",
+        "file_token": "HdQTbxqmjoxsQgxJ0GjcpXpCnWd",
+        "file_name": "22-art-academy-core.png",
+        "size": 773894
+      }
+    },
+    {
+      "heading": "第四课｜色彩：颜色必须承担角色｜学习目标",
+      "file": "21-art-academy-goal.png",
+      "index": 73,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcnKY3JbowLCcuGSwTrddJryd",
+        "file_token": "LIhDbqLpAoYIQMxTdomcLzDJnPb",
+        "file_name": "21-art-academy-goal.png",
+        "size": 771902
+      }
+    },
+    {
+      "heading": "第三课｜排版：让中文长文有节奏｜检查",
+      "file": "20-art-academy-check.png",
+      "index": 68,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcnwIvHVC1mYa74WWuZ5yuhNb",
+        "file_token": "QV0YbIDulox7AlxmZB5cAGI7nDg",
+        "file_name": "20-art-academy-check.png",
+        "size": 758413
+      }
+    },
+    {
+      "heading": "第三课｜排版：让中文长文有节奏｜练习",
+      "file": "19-art-academy-practice.png",
+      "index": 65,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcnbS9I9T6xcGdmpvpPsJoQ6b",
+        "file_token": "OeLzbHeQKoq9kGx44fCc2gDAny6",
+        "file_name": "19-art-academy-practice.png",
+        "size": 761954
+      }
+    },
+    {
+      "heading": "第三课｜排版：让中文长文有节奏｜案例",
+      "file": "18-art-academy-case.png",
+      "index": 62,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcntyFqpTrX73QTEa7A88TrHf",
+        "file_token": "Ra2ubioM6obcGmxLJJlce9lTnpc",
+        "file_name": "18-art-academy-case.png",
+        "size": 759536
+      }
+    },
+    {
+      "heading": "第三课｜排版：让中文长文有节奏｜美化方法",
+      "file": "17-art-academy-method.png",
+      "index": 59,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcnIPxk4KGqphGqsEHhxpO7wc",
+        "file_token": "RUhMbsfVWo8WRRxm96PcaIHnnRd",
+        "file_name": "17-art-academy-method.png",
+        "size": 769556
+      }
+    },
+    {
+      "heading": "第三课｜排版：让中文长文有节奏｜核心知识",
+      "file": "16-art-academy-core.png",
+      "index": 56,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcnICrQDEvo6HmSyYrOc9zEMf",
+        "file_token": "DL6VbRBWIon1BgxM7atc0gxPnKf",
+        "file_name": "16-art-academy-core.png",
+        "size": 771951
+      }
+    },
+    {
+      "heading": "第三课｜排版：让中文长文有节奏｜学习目标",
+      "file": "15-art-academy-goal.png",
+      "index": 53,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcnkqTSDqJjVZoNFIxYuEIu5d",
+        "file_token": "YnXQbk5c2okRlXxBlmGcVxLpnQh",
+        "file_name": "15-art-academy-goal.png",
+        "size": 767334
+      }
+    },
+    {
+      "heading": "第二课｜美学判断：高级感来自克制和一致｜检查",
+      "file": "14-art-academy-check.png",
+      "index": 48,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcnOfWOV9JGRCVSDqsjIbAUqf",
+        "file_token": "E3FKbTiMDoG6cQxP9z1cUXUbnNc",
+        "file_name": "14-art-academy-check.png",
+        "size": 759904
+      }
+    },
+    {
+      "heading": "第二课｜美学判断：高级感来自克制和一致｜练习",
+      "file": "13-art-academy-practice.png",
+      "index": 45,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcnwoEl196Ojw6hXFMRmsY7kd",
+        "file_token": "YjkBbPm1KomnikxLqMncaXMFnQf",
+        "file_name": "13-art-academy-practice.png",
+        "size": 762141
+      }
+    },
+    {
+      "heading": "第二课｜美学判断：高级感来自克制和一致｜案例",
+      "file": "12-art-academy-case.png",
+      "index": 42,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcn9dkj6TbGEbkKjMQKNKbnBb",
+        "file_token": "VKaHbBoWIoV19rxDOPDcjnEAnje",
+        "file_name": "12-art-academy-case.png",
+        "size": 762047
+      }
+    },
+    {
+      "heading": "第二课｜美学判断：高级感来自克制和一致｜美化方法",
+      "file": "11-art-academy-method.png",
+      "index": 39,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcnQM1CWt1d0gfANJr1abnPGc",
+        "file_token": "OTQibKKjhoUyy9xIr4Ec5earnTe",
+        "file_name": "11-art-academy-method.png",
+        "size": 771875
+      }
+    },
+    {
+      "heading": "第二课｜美学判断：高级感来自克制和一致｜核心知识",
+      "file": "10-art-academy-core.png",
+      "index": 36,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcn2xzvEtBId5EOt7VjgemtNc",
+        "file_token": "S7Gvbz1olonYsBxfEq3c0vCjnzh",
+        "file_name": "10-art-academy-core.png",
+        "size": 773132
+      }
+    },
+    {
+      "heading": "第二课｜美学判断：高级感来自克制和一致｜学习目标",
+      "file": "09-art-academy-goal.png",
+      "index": 33,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcnukwRf8fgu18ZDXTuYNwkTD",
+        "file_token": "QVGJbqRjfooRWexSdiBc4gaPnuL",
+        "file_name": "09-art-academy-goal.png",
+        "size": 770273
+      }
+    },
+    {
+      "heading": "第一课｜设计基础：先解决信息秩序｜检查",
+      "file": "08-art-academy-check.png",
+      "index": 28,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcnJnlvoYlxaOGL1PkFhiC6A6",
+        "file_token": "XcEmbveKOo5cpsxHQW9c3fNWn23",
+        "file_name": "08-art-academy-check.png",
+        "size": 764928
+      }
+    },
+    {
+      "heading": "第一课｜设计基础：先解决信息秩序｜练习",
+      "file": "07-art-academy-practice.png",
+      "index": 25,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcnWfeoZYuOuzVMiFOcEZrGfc",
+        "file_token": "DMMubBWvroODfTxmjo4c8gXqnkg",
+        "file_name": "07-art-academy-practice.png",
+        "size": 766518
+      }
+    },
+    {
+      "heading": "第一课｜设计基础：先解决信息秩序｜案例",
+      "file": "06-art-academy-case.png",
+      "index": 22,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcnsoMCr8ULOyg706zZo17crg",
+        "file_token": "PpvIbojMIod6Snx1PUwcI5jmnEg",
+        "file_name": "06-art-academy-case.png",
+        "size": 765024
+      }
+    },
+    {
+      "heading": "第一课｜设计基础：先解决信息秩序｜美化方法",
+      "file": "05-art-academy-method.png",
+      "index": 19,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcnf2RYp78wJHfUHHN4X6fAif",
+        "file_token": "KJnoblNnNorNA6xhdqbcbSwrnKh",
+        "file_name": "05-art-academy-method.png",
+        "size": 774694
+      }
+    },
+    {
+      "heading": "第一课｜设计基础：先解决信息秩序｜核心知识",
+      "file": "04-art-academy-core.png",
+      "index": 16,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcnWxK9kAZu9coveVL9oX2nZg",
+        "file_token": "K7Kjb7uqvoyZhyxW8Z8cqhHdn1b",
+        "file_name": "04-art-academy-core.png",
+        "size": 775576
+      }
+    },
+    {
+      "heading": "第一课｜设计基础：先解决信息秩序｜学习目标",
+      "file": "03-art-academy-goal.png",
+      "index": 13,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcnzuufy8n11pxm8PK3PexL9e",
+        "file_token": "JymybLz1goxNQUxAM4Ec3QqQnKd",
+        "file_name": "03-art-academy-goal.png",
+        "size": 772547
+      }
+    },
+    {
+      "heading": "风格规则｜艺术学院讲义感",
+      "file": "02-art-academy-core.png",
+      "index": 8,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcnzN7WpyFdeqILnDluoUuNIc",
+        "file_token": "CPyTbze1CoUq48x0dOvcPybJnIg",
+        "file_name": "02-art-academy-core.png",
+        "size": 765514
+      }
+    },
+    {
+      "heading": "课程总目标｜把审美训练变成可练习的方法",
+      "file": "01-art-academy-goal.png",
+      "index": 5,
+      "ok": true,
+      "details": {
+        "success": true,
+        "block_id": "doxcnfhT8LYhs7upbprN7TgPgdg",
+        "file_token": "F9ABbgeBRoImcaxT2JCc68r3nfc",
+        "file_name": "01-art-academy-goal.png",
+        "size": 766184
+      }
+    }
+  ]
+}

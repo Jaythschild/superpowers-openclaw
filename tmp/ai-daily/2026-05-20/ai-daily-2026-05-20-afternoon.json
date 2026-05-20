@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "date": "2026-05-20",
+  "edition": "afternoon",
+  "editionLabel": "下午版",
+  "workspaceRoot": "D:\\openclaw-stack\\workspace",
+  "reportDir": "D:\\openclaw-stack\\workspace\\reports\\ai-daily\\2026-05-20",
+  "reportDirRel": "reports\\ai-daily\\2026-05-20",
+  "imageDir": "D:\\openclaw-stack\\workspace\\images\\ai-daily\\2026-05-20",
+  "imageDirRel": "images\\ai-daily\\2026-05-20",
+  "tmpDir": "D:\\openclaw-stack\\workspace\\tmp\\ai-daily\\2026-05-20",
+  "tmpDirRel": "tmp\\ai-daily\\2026-05-20",
+  "reportMarkdown": "D:\\openclaw-stack\\workspace\\reports\\ai-daily\\2026-05-20\\ai-daily-2026-05-20-afternoon.md",
+  "reportMarkdownRel": "reports\\ai-daily\\2026-05-20\\ai-daily-2026-05-20-afternoon.md",
+  "manifest": "D:\\openclaw-stack\\workspace\\tmp\\ai-daily\\2026-05-20\\ai-daily-2026-05-20-afternoon.json",
+  "manifestRel": "tmp\\ai-daily\\2026-05-20\\ai-daily-2026-05-20-afternoon.json",
+  "larkCli": ".\\tools\\lark-cli-safe.cmd",
+  "pwshWrapper": ".\\tools\\openclaw-pwsh.cmd"
+}

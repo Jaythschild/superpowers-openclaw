@@ -1,0 +1,89 @@
+{
+  "checks": {
+    "revision": 694,
+    "imageBlockCount": 50,
+    "badCount": 0,
+    "bad": [],
+    "emptyImageCount": 0,
+    "widthSet": [
+      1200
+    ],
+    "heightSet": [
+      420
+    ]
+  },
+  "done": [
+    {
+      "order": 47,
+      "file": "47-premium-fixed.png",
+      "index": 182,
+      "upload": {
+        "success": true,
+        "block_id": "doxcnzKdREYDUL6YiApZ2Tks1Qg",
+        "file_token": "JmtFbV26woTU9HxeToNcrVBanqe",
+        "file_name": "47-premium-fixed.png",
+        "size": 55284
+      }
+    },
+    {
+      "order": 44,
+      "file": "44-premium-fixed.png",
+      "index": 168,
+      "upload": {
+        "success": true,
+        "block_id": "doxcnYB6vIbMhhIoKMieg7SvDg2",
+        "file_token": "XdfMbF7ryoN1qAxR0NGciwLznFb",
+        "file_name": "44-premium-fixed.png",
+        "size": 49482
+      }
+    },
+    {
+      "order": 30,
+      "file": "30-premium-fixed.png",
+      "index": 116,
+      "upload": {
+        "success": true,
+        "block_id": "doxcnwSFcFruLeBpPlKN9DGSRHc",
+        "file_token": "Q6W6bt3o5oY3VqxrvYycOgB1njz",
+        "file_name": "30-premium-fixed.png",
+        "size": 47041
+      }
+    },
+    {
+      "order": 23,
+      "file": "23-premium-fixed.png",
+      "index": 90,
+      "upload": {
+        "success": true,
+        "block_id": "doxcnpggxom8vIBAPXMlzv48Jmg",
+        "file_token": "I0qObIiUkoxVk6x0dW2cfHisnGe",
+        "file_name": "23-premium-fixed.png",
+        "size": 49794
+      }
+    },
+    {
+      "order": 15,
+      "file": "15-premium-fixed.png",
+      "index": 58,
+      "upload": {
+        "success": true,
+        "block_id": "doxcnUootnnSrCYe2Ub02jzFWwd",
+        "file_token": "UdOEbtVO9oVsq4xJuJUc8z8Fnxh",
+        "file_name": "15-premium-fixed.png",
+        "size": 50511
+      }
+    },
+    {
+      "order": 13,
+      "file": "13-premium-fixed.png",
+      "index": 51,
+      "upload": {
+        "success": true,
+        "block_id": "doxcnzvz0atHhY1jQsQJssGPTHd",
+        "file_token": "Vlk1bwxetoGfeIxTQSMcuUOdnbf",
+        "file_name": "13-premium-fixed.png",
+        "size": 51724
+      }
+    }
+  ]
+}

@@ -1,0 +1,452 @@
+[
+  {
+    "order": 1,
+    "block_id": "doxcnluGBrm4TYrtn1493JiLGkf",
+    "index": 5,
+    "token": "LxLebVXDroY9UexGteRcywqunqg",
+    "width": 960,
+    "height": 300,
+    "context": "这门课不是讲某个工具的理念，而是训练纳斯在真实输出中做出更好的视觉判断：页面是否有秩序，颜色是否有职责，字体是否适合内容，构图是否引导视线，图文是否一起表达同一个重点。"
+  },
+  {
+    "order": 2,
+    "block_id": "doxcnkDC5WhL95VxGtG36Wej37d",
+    "index": 8,
+    "token": "Wq9DbH5u8oPzb8xEOv2csIIdnah",
+    "width": 960,
+    "height": 300,
+    "context": "能判断页面秩序、排版节奏、颜色职责、字体层级、构图路径和图文解释力，并在交付前完成质量检查。"
+  },
+  {
+    "order": 3,
+    "block_id": "doxcnTCWYRRJ3CtJZkbPsfOl75g",
+    "index": 12,
+    "token": "HYshbK5zkoWem3xkniTclIy1n3d",
+    "width": 960,
+    "height": 300,
+    "context": "理解设计不是装饰，而是组织信息。一个页面首先要让读者知道先看哪里、重点是什么、下一步做什么。"
+  },
+  {
+    "order": 4,
+    "block_id": "doxcnY7Y5xN22mpZUKfyRfy07yh",
+    "index": 15,
+    "token": "Qb6Fblpgko392YxqWTmcI3ZsnDM",
+    "width": 100,
+    "height": 100,
+    "context": "设计的第一任务是降低理解成本。"
+  },
+  {
+    "order": 5,
+    "block_id": "doxcnm4hOOY9bJUEvdn9Ng8o0nc",
+    "index": 21,
+    "token": "G7Q3bHNaAoEtm1x4jLYceS1Tnrb",
+    "width": 960,
+    "height": 300,
+    "context": "把内容拆成主判断、关键证据、补充信息三层。主判断放在最强位置，证据用图卡承接，补充信息降权处理。"
+  },
+  {
+    "order": 6,
+    "block_id": "doxcni0aqIGyoEOY0TF4WaD6mCf",
+    "index": 24,
+    "token": "XpCobS811oJtgDx84iZc2Qpgn6d",
+    "width": 960,
+    "height": 300,
+    "context": "一页日报首页如果只堆新闻标题，读者会先寻找线索。改成“今日主线 + 三条证据 + 下一步关注”，页面就有了阅读方向。"
+  },
+  {
+    "order": 7,
+    "block_id": "doxcnzWAPTkoAVPDIGDP6vCEgcg",
+    "index": 27,
+    "token": "TJ4zbUkyUojBMWxDKpQcTGgSnug",
+    "width": 960,
+    "height": 300,
+    "context": "拿一篇 AI 日报首页，把新闻列表改成“今日主线 + 三条证据 + 下一步关注”。"
+  },
+  {
+    "order": 8,
+    "block_id": "doxcnBZ4MuZVAQddNIEQkviWp9b",
+    "index": 30,
+    "token": "U94YbjcAVomNeRxIWlJcmnaOn7f",
+    "width": 960,
+    "height": 300,
+    "context": "遮住正文，只看标题、图和位置，是否还能知道这一页讲什么？如果不能，信息秩序还没建立。"
+  },
+  {
+    "order": 9,
+    "block_id": "doxcntqvtWHaWtYOBJRdGoILz2m",
+    "index": 34,
+    "token": "MLWpbQPLJoUUc8xZnp5cuetgnUd",
+    "width": 960,
+    "height": 300,
+    "context": "建立基础审美判断，知道什么时候该克制，什么时候该强调，什么时候该删掉多余元素。"
+  },
+  {
+    "order": 10,
+    "block_id": "doxcnvXIZqEWI7Vacq1dt6F4F1d",
+    "index": 37,
+    "token": "UbN4buJd4obylGxHVAucMhmanJb",
+    "width": 960,
+    "height": 300,
+    "context": "高级感通常来自少量高质量元素，而不是堆满效果。"
+  },
+  {
+    "order": 11,
+    "block_id": "doxcnwpq6J0We6zCvNHxucThEkS",
+    "index": 43,
+    "token": "G93TbKqZuoNuaOxwCQCcpWjcnBL",
+    "width": 960,
+    "height": 300,
+    "context": "为整篇文档选择一个视觉母版，固定背景、标题、卡片、图像和强调色。不要每一节换一套风格。"
+  },
+  {
+    "order": 12,
+    "block_id": "doxcn2Egw0psHek0550OWqh1Rah",
+    "index": 46,
+    "token": "WPfbbqJeLo6auQxyJcJcVgTBnRh",
+    "width": 960,
+    "height": 300,
+    "context": "黑底、蓝光、强渐变同时出现时，页面容易吵。降低饱和度、减少光效、保留一个强调色，重点会更稳。"
+  },
+  {
+    "order": 13,
+    "block_id": "doxcnmxCJG3b6cXNyUWZh6UO71f",
+    "index": 49,
+    "token": "PZBZbaeJto846DxWz8GcqNAinug",
+    "width": 960,
+    "height": 300,
+    "context": "把一页黑底蓝光科技风页面改成低饱和背景、清晰网格、少量强调色和更稳的文字层级。"
+  },
+  {
+    "order": 14,
+    "block_id": "doxcnKaq2lFyiXMTMJnV5u6SFQf",
+    "index": 52,
+    "token": "FKHkbI4sZoyQ9wxy1E4cyXTYnT0",
+    "width": 960,
+    "height": 300,
+    "context": "把页面缩小到 50% 后，是否仍然清楚、稳定、不吵？如果缩小后只剩光效和噪声，审美判断需要重做。"
+  },
+  {
+    "order": 15,
+    "block_id": "doxcnQ28tVWrtXTWqSOCc68cNMh",
+    "index": 56,
+    "token": "F5fibN9jOoRYKSxQl3TcCHD7nph",
+    "width": 960,
+    "height": 300,
+    "context": "掌握中文知识库和教程文档的排版方法，让长文能被快速扫读，而不是变成一整块灰色文字。"
+  },
+  {
+    "order": 16,
+    "block_id": "doxcnmcMX713dWSXa4JSqBd07Ob",
+    "index": 59,
+    "token": "DFAvbrZdro1rIqxLmmqc8p91nce",
+    "width": 960,
+    "height": 300,
+    "context": "标题写判断，不写空泛栏目名。"
+  },
+  {
+    "order": 17,
+    "block_id": "doxcnzA3A7hiVcSVu61v9ctvjec",
+    "index": 65,
+    "token": "UzA9bPLUroVn2Wx8tFxcNIlfnNe",
+    "width": 960,
+    "height": 300,
+    "context": "每节课固定为学习目标、核心知识、美化方法、案例、练习、检查。读者每次进入新章节都知道怎么读。"
+  },
+  {
+    "order": 18,
+    "block_id": "doxcnSt0qw1A7LJA4n1yMXwWkMf",
+    "index": 68,
+    "token": "JuUTb9q4XoNI9Ixlfb5cttHcnvb",
+    "width": 960,
+    "height": 300,
+    "context": "500 字学习记录先压成一句主判断，再拆出三条证据和一个练习，阅读压力会明显下降。"
+  },
+  {
+    "order": 19,
+    "block_id": "doxcnDBqbzL93xyRLQjQDrSr41d",
+    "index": 71,
+    "token": "W8xTbx0P1o5yXKx73eAcOfsmnYd",
+    "width": 960,
+    "height": 300,
+    "context": "把 500 字学习记录改成：一句主判断、三条证据、一个练习、一个交付检查。"
+  },
+  {
+    "order": 20,
+    "block_id": "doxcnpAosN564zhzKRRwPofGUde",
+    "index": 74,
+    "token": "Dr27bfIBboJdYrxKL4KcEEy6nIf",
+    "width": 960,
+    "height": 300,
+    "context": "手机宽度下是否有超过 6 行连续正文？如果有，就拆成判断、证据、方法或检查。"
+  },
+  {
+    "order": 21,
+    "block_id": "doxcnzqSiYqdkUQYmZAdHrS2oEh",
+    "index": 78,
+    "token": "ROuKb8YjYoKQQ0xU1bWcQ7oanUg",
+    "width": 960,
+    "height": 300,
+    "context": "建立色彩系统，不再凭感觉随意换颜色。颜色要帮助读者理解信息关系。"
+  },
+  {
+    "order": 22,
+    "block_id": "doxcn2720lfTNtd2CRpzMetlzuh",
+    "index": 81,
+    "token": "DdoFbxeyBoRA8LxfqzIcWCa2nGg",
+    "width": 960,
+    "height": 300,
+    "context": "主色决定情绪和品牌气质。"
+  },
+  {
+    "order": 23,
+    "block_id": "doxcnNrmUjjyJuZVwunCz2YRUGh",
+    "index": 88,
+    "token": "NR0jbXqSjoNMOgxJVAncQCQ3n0c",
+    "width": 960,
+    "height": 300,
+    "context": "固定色彩职责：深墨色给主判断，蓝色给证据和路径，绿色给行动，琥珀色给风险，灰色给来源和说明。"
+  },
+  {
+    "order": 24,
+    "block_id": "doxcnPnVdiHQrvUiPZoPb5Rhy5b",
+    "index": 91,
+    "token": "OIGcbTtySozgI3xxZzOcAppqnef",
+    "width": 960,
+    "height": 300,
+    "context": "同一篇日报里，机会、风险、产品、资本、技术如果都用亮色，读者无法判断信息关系。颜色先分职责，再做美化。"
+  },
+  {
+    "order": 25,
+    "block_id": "doxcnKatrxF7Qiw80aDKb98u3qf",
+    "index": 94,
+    "token": "M94ObGpn7oZfVAxclxAccyQNnZb",
+    "width": 960,
+    "height": 300,
+    "context": "给一篇日报设计颜色职责表：机会、风险、产品、资本、技术、下一步分别用什么视觉语言表示。"
+  },
+  {
+    "order": 26,
+    "block_id": "doxcngzr2KWssGPOYZVAK33KVdh",
+    "index": 97,
+    "token": "EkoibcnfhoQBgnx4eADc1gM8ntc",
+    "width": 960,
+    "height": 300,
+    "context": "遮住文字，只看颜色和位置，是否能分辨结论、证据、风险、行动？不能就说明颜色没有承担角色。"
+  },
+  {
+    "order": 27,
+    "block_id": "doxcn7pWwRHafBcySQelmPJHJTd",
+    "index": 101,
+    "token": "NZcFbtxemo19fwxM606crxhSnqf",
+    "width": 960,
+    "height": 300,
+    "context": "理解字体不是随便选一个好看的字形，而是在控制内容语气、阅读速度和专业感。"
+  },
+  {
+    "order": 28,
+    "block_id": "doxcnQMPF0KhHCDpshn1hTD9qYb",
+    "index": 104,
+    "token": "TY7WbfykroszbNxnRdxcugztnZe",
+    "width": 960,
+    "height": 300,
+    "context": "标题字体要有力量，但不能牺牲识别性。"
+  },
+  {
+    "order": 29,
+    "block_id": "doxcnWH7FIRRWsaSxRNfDlu9yQe",
+    "index": 111,
+    "token": "U5etbi0d5oPV75xXUOTc5MTmnAR",
+    "width": 960,
+    "height": 300,
+    "context": "固定四档字体层级：封面标题、章节标题、正文、注释。每档只改字号和字重，不临时乱加描边、阴影和特殊效果。"
+  },
+  {
+    "order": 30,
+    "block_id": "doxcn5C4o6jaKW1491MGsHx1i5e",
+    "index": 114,
+    "token": "WCipbEQsWooqLpxHaWgc4Nssnzc",
+    "width": 960,
+    "height": 300,
+    "context": "如果标题、标签、正文、注释都加粗，页面会失去重点。减少字重后，层级反而更清楚。"
+  },
+  {
+    "order": 31,
+    "block_id": "doxcnE4MkICASH3rGYVNaMAqVAA",
+    "index": 117,
+    "token": "Ii8vb5hz6oACJExGdPPcg0gbnlV",
+    "width": 960,
+    "height": 300,
+    "context": "把一页所有文字统一成四档层级，并删除多余字重。观察页面是否更稳。"
+  },
+  {
+    "order": 32,
+    "block_id": "doxcn2z7ZgCYKeHvVPn1DbdeFsY",
+    "index": 120,
+    "token": "GNC0bSMuZolOLtxJSPXcLTT4nDb",
+    "width": 960,
+    "height": 300,
+    "context": "快速扫一眼，是否能分出标题、重点、正文和注释？如果所有字都像重点，字体层级失败。"
+  },
+  {
+    "order": 33,
+    "block_id": "doxcnhWPDqeI8RyyQdKUEJerHWe",
+    "index": 124,
+    "token": "Ctd1bXq6qo9zbMxn4ovcCE02n66",
+    "width": 960,
+    "height": 300,
+    "context": "掌握基础构图方法，让图文内容形成明确观看路径。"
+  },
+  {
+    "order": 34,
+    "block_id": "doxcnuyobFsA0pvzq8KQy82AFxb",
+    "index": 127,
+    "token": "Nuewb3ZW0oVrONxTCJccdUGKnrb",
+    "width": 960,
+    "height": 300,
+    "context": "构图决定读者先看哪里。"
+  },
+  {
+    "order": 35,
+    "block_id": "doxcnJgqT4C6ibEG9y3xrIKKkLf",
+    "index": 134,
+    "token": "RsWdbua5goDCBWxCe6acRCubn9g",
+    "width": 960,
+    "height": 300,
+    "context": "教程图固定三种构图：对比图、流程图、结构图。每张图只承担一种教学任务，不混合太多元素。"
+  },
+  {
+    "order": 36,
+    "block_id": "doxcnKlOvSEQ3gs01kwG4R2qhDh",
+    "index": 137,
+    "token": "FzGrbJdZjoMP6dxpPaccc5Ijn8d",
+    "width": 960,
+    "height": 300,
+    "context": "改前改后的排版案例适合左右对比，步骤教学适合横向流程，层级说明适合金字塔或分层结构。"
+  },
+  {
+    "order": 37,
+    "block_id": "doxcnyVKUNyJhVkDv7PmP7jtFre",
+    "index": 140,
+    "token": "A791bPyf1oXRs1xEIpuc9J1rn3a",
+    "width": 960,
+    "height": 300,
+    "context": "把“改前 vs 改后”的排版案例做成左右对比图，左边放问题，右边放重构后的阅读路径。"
+  },
+  {
+    "order": 38,
+    "block_id": "doxcnCuBKQVmAqQ3Rj1QMeIk4od",
+    "index": 143,
+    "token": "OPUFbX8eBo8MmoxrFhFc7tTKnVG",
+    "width": 960,
+    "height": 300,
+    "context": "只看布局，不看文字，视线是否自然从主结论走到证据再到行动？如果视线乱跳，构图需要调整。"
+  },
+  {
+    "order": 39,
+    "block_id": "doxcnTokfr9RxHKFkPHozIAsV4g",
+    "index": 147,
+    "token": "PIrTbEmAkoKanQxxfKWcXuUAnwC",
+    "width": 960,
+    "height": 300,
+    "context": "让图片承担教学功能。每个知识点至少配一种可解释的图，而不是放氛围图。"
+  },
+  {
+    "order": 40,
+    "block_id": "doxcnPnwtFxAKmcCA52GibVBDSe",
+    "index": 150,
+    "token": "QpzdbmPM4ou5maxWuQtcGiE4njh",
+    "width": 960,
+    "height": 300,
+    "context": "对比图适合讲改版。"
+  },
+  {
+    "order": 41,
+    "block_id": "doxcn2jox0975cm2nhjxh2wqG2g",
+    "index": 157,
+    "token": "XErYbTYFsov2vNxTg6Sc8dJfnhc",
+    "width": 960,
+    "height": 300,
+    "context": "每个小节都配一张图卡。图卡标题直接写结论，图内只保留关键结构和少量标注，风格统一。"
+  },
+  {
+    "order": 42,
+    "block_id": "doxcnBRenZNmL1BUrmEo1TrkEXh",
+    "index": 160,
+    "token": "BE0qbN3xvoQEXBxLYDNcpfogngf",
+    "width": 960,
+    "height": 300,
+    "context": "讲色彩系统时，用颜色职责图；讲排版时，用灰文块到分段结构的对比；讲验收时，用检查清单图。"
+  },
+  {
+    "order": 43,
+    "block_id": "doxcntlHnBPnMjanNmcu1igR4jd",
+    "index": 163,
+    "token": "QCPhbSQOuoJwKExty8ycrLyXncf",
+    "width": 960,
+    "height": 300,
+    "context": "为“色彩系统”做一张颜色职责图：主判断、证据、行动、风险、来源分别放在固定位置。"
+  },
+  {
+    "order": 44,
+    "block_id": "doxcnkM9LihcaTRiGduOB3ErW9b",
+    "index": 166,
+    "token": "AVjLbUvfcoIHy8xqlJAc2K4ynLN",
+    "width": 960,
+    "height": 300,
+    "context": "只看图，不看正文，能否说出这节课的核心？不能的话，图只是装饰。"
+  },
+  {
+    "order": 45,
+    "block_id": "doxcnqJi5mA9JgfFoIVcJAH0swb",
+    "index": 170,
+    "token": "EFhcbglMroT0KTxdLX8cpshNnof",
+    "width": 960,
+    "height": 300,
+    "context": "把审美要求转成可检查动作，避免只凭感觉说“已经美化”。"
+  },
+  {
+    "order": 46,
+    "block_id": "doxcnjYrC7Y0yHqNxdvxfKfApFc",
+    "index": 173,
+    "token": "KBbab1GSDoTPTFxtscZcBDZMnTm",
+    "width": 960,
+    "height": 300,
+    "context": "内容检查：标题是否贴合文档主题。"
+  },
+  {
+    "order": 47,
+    "block_id": "doxcn5mGuFWnncz2wODvM3reMjh",
+    "index": 180,
+    "token": "RH6hbTJuwolcxUxjZvXcLSHcnFc",
+    "width": 960,
+    "height": 300,
+    "context": "生成后读取飞书全文和 blocks，检查图片数量、空图片块、旧版关键词、章节完整度，把结果写入交付说明。"
+  },
+  {
+    "order": 48,
+    "block_id": "doxcnAgCPX12zybmMU8yVl9lFyf",
+    "index": 183,
+    "token": "M83vbYgEeoRLfBxuN7zcFcKanAm",
+    "width": 960,
+    "height": 300,
+    "context": "如果文档说已经美化，但没有图片数量、残留关键词、章节完整度和空块检查，就不能算完成。"
+  },
+  {
+    "order": 49,
+    "block_id": "doxcnipiJrqkXQMAmmZXLjCoWoc",
+    "index": 186,
+    "token": "S1rKbKQY4oA11LxSGl2cJwwxnjb",
+    "width": 100,
+    "height": 100,
+    "context": "为本课程建立交付清单：主题是否正确、章节是否对应标题、图片是否解释课程内容、是否有旧内容残留。"
+  },
+  {
+    "order": 50,
+    "block_id": "doxcnkq3CS0lX4q1ntvZNvyEHnd",
+    "index": 189,
+    "token": "Byd5b427DosPNwxpWiec9GR7nrf",
+    "width": 960,
+    "height": 300,
+    "context": "如果没有验收结果，就不能说完成。"
+  }
+]

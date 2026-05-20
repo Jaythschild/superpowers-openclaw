@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>视觉表达综合训练 - 2026-05-16</title>
+  <style>
+    :root { --ink: #18212f; --muted: #667085; --line: #d9e1ea; --paper: #f7f8f6; --panel: #ffffff; --blue: #246bfe; --green: #168a5b; --red: #d34a3a; --amber: #d89b25; }
+    * { box-sizing: border-box; }
+    html, body { max-width: 100%; overflow-x: hidden; } body { margin: 0; background: var(--paper); color: var(--ink); font-family: "Microsoft YaHei", "PingFang SC", "Segoe UI", Arial, sans-serif; line-height: 1.55; }
+    main { width: min(1180px, calc(100vw - 48px)); margin: 0 auto; padding: 42px 0 48px; }
+    .eyebrow { margin: 0 0 8px; color: var(--blue); font-size: 14px; font-weight: 700; letter-spacing: 0; }
+    h1 { margin: 0; max-width: 780px; font-size: 44px; line-height: 1.12; letter-spacing: 0; }
+    .lead { margin: 14px 0 28px; max-width: 760px; color: var(--muted); font-size: 18px; }
+    .comparison { display: grid; grid-template-columns: 0.88fr 1.12fr; gap: 18px; align-items: stretch; }
+    .panel { min-height: 650px; border: 1px solid var(--line); background: var(--panel); border-radius: 8px; padding: 24px; }
+    .panel-title { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 18px; border-bottom: 1px solid var(--line); padding-bottom: 14px; }
+    .panel-title h2 { margin: 0; font-size: 20px; line-height: 1.25; }
+    .tag { flex: 0 0 auto; border-radius: 999px; padding: 4px 10px; font-size: 12px; font-weight: 700; }
+    .tag.bad { background: #fff0ed; color: var(--red); }
+    .tag.good { background: #e8f7ef; color: var(--green); }
+    .messy { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+    .messy .box { min-height: 118px; border: 1px dashed #c7ced8; padding: 14px; background: #fbfbfa; }
+    .messy .box:nth-child(2) { margin-top: 24px; }
+    .messy .box:nth-child(3) { grid-column: span 2; }
+    .messy .box:nth-child(4) { min-height: 156px; }
+    .messy h3 { margin: 0 0 8px; font-size: 18px; color: #344054; }
+    .messy p, .messy li { margin: 0; color: #596579; font-size: 14px; }
+    .messy ul { margin: 8px 0 0; padding-left: 18px; }
+    .focus-hero { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 20px; align-items: end; margin-bottom: 22px; }
+    .focus-hero h2 { margin: 0 0 10px; font-size: 34px; line-height: 1.12; }
+    .focus-hero p { margin: 0; color: var(--muted); font-size: 16px; }
+    .metric-stack { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+    .metric { border: 1px solid var(--line); border-radius: 8px; padding: 14px; background: #fbfcfe; }
+    .metric strong { display: block; font-size: 28px; line-height: 1; color: var(--blue); }
+    .metric span { display: block; margin-top: 8px; color: var(--muted); font-size: 13px; }
+    .path { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0; margin: 24px 0; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+    .step { min-height: 120px; padding: 16px; background: #fff; border-right: 1px solid var(--line); }
+    .step:last-child { border-right: 0; }
+    .step b { display: block; margin-bottom: 12px; color: var(--blue); font-size: 13px; }
+    .step h3 { margin: 0 0 8px; font-size: 17px; line-height: 1.25; }
+    .step p { margin: 0; color: var(--muted); font-size: 13px; }
+    .infobar { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 20px; }
+    .note { border-left: 4px solid var(--amber); background: #fff9eb; padding: 14px 16px; border-radius: 6px; }
+    .note h3 { margin: 0 0 6px; font-size: 16px; }
+    .note p { margin: 0; color: #6b5a35; font-size: 14px; }
+    .palette { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; align-content: start; }
+    .swatch { min-height: 74px; border-radius: 8px; padding: 8px; color: #fff; font-size: 12px; font-weight: 700; }
+    .swatch:nth-child(1) { background: var(--ink); }
+    .swatch:nth-child(2) { background: var(--blue); }
+    .swatch:nth-child(3) { background: var(--green); }
+    .swatch:nth-child(4) { background: var(--amber); color: #1f2937; }
+    .swatch:nth-child(5) { background: #d9e1ea; color: #1f2937; }
+    footer { margin-top: 18px; color: var(--muted); font-size: 12px; }
+    @media (max-width: 880px) {
+      main { width: auto; margin: 0 14px; padding-top: 28px; }
+      h1 { font-size: 28px; overflow-wrap: anywhere; word-break: break-all; } .lead { font-size: 16px; } .panel { overflow: hidden; padding: 18px; } .panel-title { align-items: flex-start; } .tag { display: none; } * { min-width: 0; } h2, h3, p, li, span { overflow-wrap: anywhere; word-break: break-all; }
+      .comparison, .focus-hero, .infobar { grid-template-columns: 1fr; }
+      .panel { min-height: auto; }
+      .metric-stack, .path, .messy { grid-template-columns: 1fr; }
+      .messy .box:nth-child(2) { margin-top: 0; } .messy .box:nth-child(3) { grid-column: auto; } .step { border-right: 0; border-top: 1px solid var(--line); } .step:first-child { border-top: 0; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="eyebrow">视觉表达综合训练 / 2026-05-16</p>
+    <h1>从“堆信息”<br>到“观看路径”。</h1>
+    <p class="lead">把复杂信息改成清楚的阅读路径。</p>
+    <section class="comparison" aria-label="before after comparison">
+      <div class="panel">
+        <div class="panel-title"><h2>Before：信息都在说话</h2><span class="tag bad">层级弱</span></div>
+        <div class="messy">
+          <div class="box"><h3>颜色</h3><p>颜色很多，层级不清。</p></div>
+          <div class="box"><h3>字体</h3><p>字号差异不够，顺序不清。</p></div>
+          <div class="box"><h3>视觉层级 / PPT / 信息图</h3><ul><li>主题很大</li><li>关键词很多</li><li>没有先后关系</li></ul></div>
+          <div class="box"><h3>数据表达</h3><p>标签离数据太远，阅读成本会上升。</p></div>
+          <div class="box"><h3>构图</h3><p>模块随机，节奏不稳。</p></div>
+        </div>
+      </div>
+      <div class="panel">
+        <div class="panel-title"><h2>After：先给结论，再给证据</h2><span class="tag good">路径清晰</span></div>
+        <div class="focus-hero">
+          <div><h2>控制注意力。</h2><p>先确定第一眼，再安排后续阅读。</p></div>
+          <div class="metric-stack">
+            <div class="metric"><strong>1</strong><span>一个主信号</span></div>
+            <div class="metric"><strong>3</strong><span>三个层级</span></div>
+            <div class="metric"><strong>5</strong><span>五项检查</span></div>
+          </div>
+        </div>
+        <div class="path">
+          <div class="step"><b>01</b><h3>确定主张</h3><p>页面先回答“这页要我记住什么”。</p></div>
+          <div class="step"><b>02</b><h3>建立层级</h3><p>字号、留白、对比共同决定观看顺序。</p></div>
+          <div class="step"><b>03</b><h3>贴近数据</h3><p>标签、单位、注释放到读者需要的位置。</p></div>
+          <div class="step"><b>04</b><h3>收束颜色</h3><p>中性色组织结构，强调色只给关键判断。</p></div>
+        </div>
+        <div class="infobar">
+          <div class="note"><h3>本次排版判断</h3><p>中文正文保持舒展行距；卡片半径克制；强调色只用于关键数值、步骤编号和提示。</p></div>
+          <div class="palette" aria-label="color palette"><div class="swatch">Ink</div><div class="swatch">Action</div><div class="swatch">Success</div><div class="swatch">Note</div><div class="swatch">Line</div></div>
+        </div>
+      </div>
+    </section>
+    <footer>参考：NN/g Visual Hierarchy、IBM Carbon Color/Typography、Datawrapper data visualization text and color guidance。</footer>
+  </main>
+</body>
+</html>
+
+
+
+
+
+

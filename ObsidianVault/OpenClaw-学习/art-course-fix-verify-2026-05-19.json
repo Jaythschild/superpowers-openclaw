@@ -1,0 +1,67 @@
+{
+  "checks": {
+    "requiredMissing": [],
+    "badMarkersPresent": [],
+    "uploadedCount": 9,
+    "imageBlockCount": 9,
+    "emptyImageCount": 9,
+    "blockCount": 166,
+    "link": "https://my.feishu.cn/wiki/MI56wWT54ipCPRkS7jIcRyWlnnb?fromScene=spaceOverview"
+  },
+  "uploaded": [
+    {
+      "heading": "第八课｜交付检查：好看必须能被验证",
+      "file": "08-delivery-check.png",
+      "index": 121,
+      "ok": true
+    },
+    {
+      "heading": "第七课｜图文案例：每个知识点都要可视化",
+      "file": "07-visual-case.png",
+      "index": 106,
+      "ok": true
+    },
+    {
+      "heading": "第六课｜构图：用位置引导视线",
+      "file": "06-composition.png",
+      "index": 91,
+      "ok": true
+    },
+    {
+      "heading": "第五课｜字体：字体决定语气和层级",
+      "file": "05-font-hierarchy.png",
+      "index": 76,
+      "ok": true
+    },
+    {
+      "heading": "第四课｜色彩：颜色必须承担角色",
+      "file": "04-color-system.png",
+      "index": 61,
+      "ok": true
+    },
+    {
+      "heading": "第三课｜排版：让中文长文有节奏",
+      "file": "03-typography-layout.png",
+      "index": 47,
+      "ok": true
+    },
+    {
+      "heading": "第二课｜美学判断：高级感来自克制和一致",
+      "file": "02-aesthetic-judgement.png",
+      "index": 33,
+      "ok": true
+    },
+    {
+      "heading": "第一课｜设计基础：先解决信息秩序",
+      "file": "01-design-order.png",
+      "index": 19,
+      "ok": true
+    },
+    {
+      "heading": "课程总目标｜把审美训练变成可练习的方法",
+      "file": "00-cover-art-design-course.png",
+      "index": 4,
+      "ok": true
+    }
+  ]
+}

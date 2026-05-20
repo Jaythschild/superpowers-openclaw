@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<title>OpenDesign Skill Directed Poster</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    width: 1024px;
+    height: 1024px;
+    background: #f7f3ea;
+    font-family: "Microsoft YaHei", "PingFang SC", Arial, sans-serif;
+    color: #171717;
+    overflow: hidden;
+  }
+  .poster {
+    position: relative;
+    width: 1024px;
+    height: 1024px;
+    padding: 72px 78px;
+    background:
+      radial-gradient(circle at 18% 14%, rgba(255, 192, 86, .55), transparent 21%),
+      radial-gradient(circle at 82% 20%, rgba(90, 148, 255, .28), transparent 23%),
+      linear-gradient(135deg, #fbf7ee 0%, #f3eadc 100%);
+  }
+  .grid {
+    position: absolute; inset: 40px;
+    border: 3px solid #111;
+    border-radius: 28px;
+    opacity: .9;
+  }
+  .tag {
+    display: inline-block;
+    border: 2px solid #111;
+    border-radius: 999px;
+    padding: 10px 20px;
+    font-size: 25px;
+    font-weight: 700;
+    background: #fff;
+    transform: rotate(-2deg);
+  }
+  h1 {
+    margin: 56px 0 18px;
+    font-size: 82px;
+    line-height: 1.04;
+    letter-spacing: 0;
+    max-width: 760px;
+  }
+  .sub {
+    font-size: 31px;
+    line-height: 1.45;
+    max-width: 720px;
+  }
+  .flow {
+    position: absolute;
+    left: 88px;
+    right: 88px;
+    bottom: 112px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+  }
+  .card {
+    background: #fffdf7;
+    border: 2px solid #111;
+    border-radius: 18px;
+    padding: 18px 14px;
+    min-height: 120px;
+    box-shadow: 8px 8px 0 #111;
+  }
+  .num { font-size: 24px; color: #e4572e; font-weight: 900; }
+  .card b { display: block; font-size: 28px; margin-top: 8px; }
+  .card span { display: block; margin-top: 8px; font-size: 18px; line-height: 1.25; color: #555; }
+  .arrow {
+    position: absolute;
+    width: 72px;
+    height: 24px;
+    border-top: 4px solid #111;
+    transform: rotate(-8deg);
+  }
+  .arrow:after {
+    content:"";
+    position:absolute; right:-2px; top:-10px;
+    border-left: 18px solid #111;
+    border-top: 9px solid transparent;
+    border-bottom: 9px solid transparent;
+  }
+  .a1{left:520px; top:392px}.a2{left:646px; top:530px; transform:rotate(18deg)}
+  .bubble {
+    position:absolute; right:96px; top:218px; width:220px; height:220px;
+    border:3px solid #111; border-radius: 42% 58% 46% 54%;
+    background:#c7e7ff; display:grid; place-items:center;
+    font-size:76px; box-shadow:10px 10px 0 #111;
+  }
+  .note {
+    position:absolute; right:108px; bottom:54px; font-size:22px; color:#444;
+  }
+</style>
+</head>
+<body>
+<div class="poster">
+  <div class="grid"></div>
+  <div class="tag">OpenDesign 技能导向版</div>
+  <h1>AI 设计出图<br>先有结构，再有画面</h1>
+  <div class="sub">用设计 brief、视觉层级、风格模板和自检清单，先把图的逻辑搭稳，再进入生成或渲染。</div>
+  <div class="bubble">✦</div>
+  <div class="arrow a1"></div><div class="arrow a2"></div>
+  <div class="flow">
+    <div class="card"><div class="num">01</div><b>目标</b><span>明确受众、场景、尺寸</span></div>
+    <div class="card"><div class="num">02</div><b>风格</b><span>确定字体、色彩、构图</span></div>
+    <div class="card"><div class="num">03</div><b>布局</b><span>标题、图形、信息路径</span></div>
+    <div class="card"><div class="num">04</div><b>出图</b><span>生成、检查、迭代</span></div>
+  </div>
+  <div class="note">适合：报告图卡 / 海报 / 流程图 / 设计稿</div>
+</div>
+</body>
+</html>

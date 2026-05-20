@@ -1,0 +1,8 @@
+{
+  "attachmentFolderPath": "attachments",
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "readableLineLength": true,
+  "showLineNumber": false,
+  "showInlineTitle": true
+}
